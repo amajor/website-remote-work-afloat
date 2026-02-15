@@ -3,7 +3,7 @@ layout: base
 ---
 
 <div class="home">
-  <div class="two-columns">
+  <div class="columns">
     {% if page.featured_image %}
     <div class="column image right">
       <img src="{{ page.featured_image | relative_url }}" alt="{{ page.featured_image_alt | escape }}" class="home-featured-image" />
@@ -33,7 +33,7 @@ layout: base
     {%- if page.list_title -%}
       <h2 class="post-list-heading">{{ page.list_title }}</h2>
     {%- endif -%}
-    <ul class="post-list">
+    <ul class="post-list columns">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {%- for post in posts limit:3 -%}
 
@@ -47,7 +47,7 @@ layout: base
       {% endcapture %}
       <!-- End Loop Life captures -->
 
-      <li>
+      <li class="column">
         <a class="post-link {% if post.external %}external-link{% endif %}" href="{{ post_link }}" {% if post.external %}target="_blank"{% endif %}>
           {%- if post.article_title -%}
             {{ post.article_title | escape }}

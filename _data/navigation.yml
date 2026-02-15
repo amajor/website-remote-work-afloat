@@ -1,0 +1,12 @@
+- name: About the Book
+  link: /about
+- name: Favorite Gear
+  link: /gear
+- name: Articles
+  link: /articles
+- name: Community
+  link: /community
+- name: FAQs
+  link: /faqs
+- name: Buy the Book
+  link: /buy

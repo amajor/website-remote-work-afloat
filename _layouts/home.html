@@ -3,11 +3,25 @@ layout: base
 ---
 
 <div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
+  <div class="two-columns">
+    {% if page.featured_image %}
+    <div class="column image right">
+      <img src="{{ page.featured_image | relative_url }}" alt="{{ page.featured_image_alt | escape }}" class="home-featured-image" />
+    </div>
+    {% endif %}
+    
+    <div class="column content">
+      {{ content }}
 
-  {{ content }}
+      <div>
+        <a href="about" class="pill-button button-blue">
+          Learn more about the Book
+        </a>
+      </div>
+    </div>
+  </div>
+    
+  <hr />
 
 
   {% if site.paginate %}

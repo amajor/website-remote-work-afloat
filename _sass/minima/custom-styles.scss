@@ -5,10 +5,31 @@
 body {
   font-family: "Bitter", serif;
   font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 0.9em;
-  color: $remote-work-afloat-color-5;
+
+  p {
+    font-size: 0.95em;
+    font-weight: 350;
+    font-style: normal;
+    color: $remote-work-afloat-color-5;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Young Serif", serif;
+    color: $remote-work-afloat-color-4;
+    line-height: 1em;
+  }
+  
+  h1 {
+    font-size: 3.25em;
+  }
+
+  h3 {
+    font-size: 1.75em;
+  }
+
+  h4 {
+    font-size: 1.5em;
+  }
 
   a:hover {
     text-decoration: none;
@@ -22,6 +43,8 @@ body {
 
 // Navigation & Header Styles
 .site-header { 
+  font-weight: 300;
+  font-size: 0.9em;
   background-color: $remote-work-afloat-color-3;
   border-top: none;
 
@@ -48,15 +71,25 @@ body {
 }
 
 // Buttons
-.pill-button {
-  font-weight: 500;
-  text-transform: uppercase;
-  background-color: $remote-work-afloat-color-6;
-  color: $remote-work-afloat-color-1;
-  padding: 0px 20px;
+a.pill-button {
+  font-weight: 400;
   display: inline-block;
-  margin: 4px 2px;
   border-radius: 9999px; /* The key for the pill shape */
+  background-color: $remote-work-afloat-color-3;
+  color: $remote-work-afloat-color-1;
+  padding: 15px 40px;
+
+  &.nav-item {
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 0px 20px;
+    margin: 4px 2px;
+  }
+
+  &.orange {
+    background-color: $remote-work-afloat-color-6;
+    color: $remote-work-afloat-color-1;
+  }
 }
 
 .pill-button:hover {
@@ -67,22 +100,67 @@ body {
 .site-footer {
   background-color: $remote-work-afloat-color-5;
   
+  .wrapper {
+    max-width: 900px;
+    padding: 20px;
+  }
+  
   .footer-col-wrapper {
-    color: $remote-work-afloat-color-1;
+    p {
+      color: $remote-work-afloat-color-1;
+    }
 
     h3, h4 {
-      font-family: "Young Serif", serif;
-      font-size: 1.2em;
-      color: $remote-work-afloat-color-1;
+      color: $remote-work-afloat-color-3;
     }
 
     a {
       color: $remote-work-afloat-color-3;
+
+      &:hover {
+        text-decoration: underline;
+        text-underline-offset: 0.5em;  text-decoration-thickness: 1px;
+      }
     }
 
-    a:hover {
-      text-decoration: underline;
-      text-underline-offset: 0.5em;  text-decoration-thickness: 1px;
-    }
+  }
+}
+
+/* Custom two-column styles */
+.two-columns {
+  display: flex;
+  flex-wrap: wrap; /* Allows columns to wrap on smaller screens */
+  gap: 20px; /* Adds space between columns */
+  align-items: center; /* Vertically centers the content */
+  justify-content: center; /* Centers the image horizontally */
+}
+
+.column {
+  flex: 1; /* Makes columns flexible and equal width */
+  min-width: 0; /* Allows content to shrink within the flex container */
+  
+  .image {
+    flex-basis: 40%; /* Adjust width for the image column */
+  }
+
+  .content {
+    flex-basis: 60%; /* Adjust width for the content column */
+  }
+
+  /* Make images inside the column responsive */
+  img {
+    max-height: 550px;
+    height: auto;
+  }
+}
+
+/* Add media query for responsiveness on mobile */
+@media (max-width: 768px) {
+  .two-columns {
+    flex-direction: column; /* Stacks columns vertically on mobile */
+  }
+  .column.image,
+  .column.content {
+    flex-basis: 100%;
   }
 }

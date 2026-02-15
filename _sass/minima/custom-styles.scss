@@ -1,2 +1,59 @@
-// Placeholder to allow defining custom styles that override everything else.
-// (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+// Remote Work Afloat - Custom Styles
+// This file contains custom styles for the Remote Work Afloat website, built on the Minima theme. It is used to override or add to the default styles provided by the Minima theme.
+
+// Fonts
+body {
+  font-family: "Bitter", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 0.9em;
+  color: $remote-work-afloat-color-5;
+
+  a:hover {
+    text-decoration: none;
+  }
+}
+
+// Navigation & Header Styles
+.site-header { 
+  background-color: $remote-work-afloat-color-3;
+  border-top: none;
+
+  div.wrapper {
+    max-width: 900px;
+    padding: 8px;
+  }
+
+  a, a:visited {
+    color: $remote-work-afloat-color-1;
+  }
+}
+
+.site-title, .site-title:visited {
+  font-family: "Young Serif", serif;
+  font-size: 1.5em;
+  color: $remote-work-afloat-color-1;
+}
+
+@media screen and (max-width: 600px) {
+  .site-nav {
+    background-color: $remote-work-afloat-color-3;
+  }
+}
+
+// Buttons
+.pill-button {
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: $remote-work-afloat-color-6;
+  color: $remote-work-afloat-color-1;
+  padding: 0px 20px;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 9999px; /* The key for the pill shape */
+}
+
+.pill-button:hover {
+  opacity: 0.8;
+}

@@ -1,6 +1,12 @@
 // Remote Work Afloat - Custom Styles
 // This file contains custom styles for the Remote Work Afloat website, built on the Minima theme. It is used to override or add to the default styles provided by the Minima theme.
 
+.page-content .wrapper {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
 // Fonts
 body {
   font-family: "Bitter", serif;

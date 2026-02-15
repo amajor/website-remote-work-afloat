@@ -2,6 +2,7 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
+title: Explore Remote Water Work
 layout: home
 featured_image: assets/img/book_cover-remote_work_afloat.png
 featured_image_alt: Remote Work Afloat Book Cover

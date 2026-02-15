@@ -94,6 +94,11 @@ a.pill-button {
     background-color: $remote-work-afloat-color-6;
     color: $remote-work-afloat-color-1;
   }
+
+  &.white {
+    background-color: $remote-work-afloat-color-1;
+    color: $remote-work-afloat-color-5;
+  }
 }
 
 .pill-button:hover {

@@ -19,13 +19,30 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Remote Work Afloat
-email: hello@remoteworkafloat.com
+author:
+  name: Tea & Tides Stories
+  url: https://teaandtidesstories.com
+  email: hello@remoteworkafloat.com
+  address: 2222 W. Grand River Ave Ste A
+  city: Okemos
+  state: MI
+  zip: 48864
+  country: USA
 description: >- # this means to ignore newlines until "baseurl:"
   Whether you're planning your transition, choosing the right internet setup, or figuring out how to balance work with adventure, Remote Work Afloat provides practical advice, gear recommendations, and real-world strategies to help you stay connected and productive on the water.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://remoteworkafloat.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://remoteworkafloat.com" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
+minima:
+  social_links:
+    # - name: Facebook
+    #   url: https://www.facebook.com/RemoteWorkAfloat
+    # - name: Instagram
+    #   url: https://www.instagram.com/remoteafloat/
+    # - name: LinkedIn
+    #   url: https://www.linkedin.com/company/remote-work-afloat/
+  hide_site_feed_link: true
 
 # Build settings
 theme: minima

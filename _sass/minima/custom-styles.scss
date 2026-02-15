@@ -62,3 +62,27 @@ body {
 .pill-button:hover {
   opacity: 0.8;
 }
+
+// Footer
+.site-footer {
+  background-color: $remote-work-afloat-color-5;
+  
+  .footer-col-wrapper {
+    color: $remote-work-afloat-color-1;
+
+    h3, h4 {
+      font-family: "Young Serif", serif;
+      font-size: 1.2em;
+      color: $remote-work-afloat-color-1;
+    }
+
+    a {
+      color: $remote-work-afloat-color-3;
+    }
+
+    a:hover {
+      text-decoration: underline;
+      text-underline-offset: 0.5em;  text-decoration-thickness: 1px;
+    }
+  }
+}

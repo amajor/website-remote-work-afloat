@@ -43,6 +43,7 @@ minima:
     # - name: LinkedIn
     #   url: https://www.linkedin.com/company/remote-work-afloat/
   hide_site_feed_link: true
+  show_excerpts: true
 
 # Build settings
 theme: minima

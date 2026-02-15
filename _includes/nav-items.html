@@ -1,6 +1,6 @@
 <div class="nav-items">
   {% for item in site.data.navigation %}
-    <a class="nav-item {% if item.link == '/buy' %}pill-button{% endif %}" href="{{ item.link }}" {% if page.url == item.link %}style="text-decoration: underline; text-underline-offset: 0.5em;  text-decoration-thickness: 1px;"{% endif %}>
+    <a class="nav-item {% if item.link == '/buy' %}pill-button{% endif %} {% if page.url == item.link %}active-link{% endif %}" href="{{ item.link }}">
       {{ item.name }}
     </a>
   {% endfor %}

@@ -2,6 +2,7 @@
 layout: page_about
 title: About the Book - Explore Remote Work Opportunities
 permalink: /about
+content_width: full
 featured_image: assets/img/book_cover-remote_work_afloat.png
 featured_image_alt: Remote Work Afloat Book Cover
 ---

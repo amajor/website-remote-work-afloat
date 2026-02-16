@@ -15,21 +15,22 @@ layout: base
   </div>
 
   <!-- Article Categories -->
-   <div class="article-categories">
-      <div class="container">
-        {% for category in site.data.blog_categories %}
-          <div class="item item-categories">
-            <h3>{{ category.title }}</h3>
-            <p>{{ category.description }}</p>
-            <a class="pill-button small" href="{{ category.url | relative_url }}">
-              {{ category.button_text }}
-            </a>
-          </div>
-        {% endfor %}
-      </div>
+  <div class="article-categories">
+    <div class="container">
+      {% for category in site.data.blog_categories %}
+        <div class="item item-categories">
+          <h3>{{ category.title }}</h3>
+          <p>{{ category.description }}</p>
+          <a class="pill-button small" href="{{ category.url | relative_url }}">
+            {{ category.button_text }}
+          </a>
+        </div>
+      {% endfor %}
     </div>
+  </div>
 
-    <!-- Posts -->
+  <!-- Posts -->
+  <div class="article-posts">
     {% if site.paginate %}
       {% assign posts = paginator.posts %}
     {% else %}

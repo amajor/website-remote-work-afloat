@@ -369,3 +369,64 @@ a.pill-button {
   text-align: center;
   margin-top: 60px;
 }
+
+// Buy Page
+.buy {
+  .main {
+    padding: 0 15%;
+  }
+
+  .retailers, .to-share, .spread-the-word {
+    padding: 40px;
+    text-align: center;
+    
+    .retailer-links .column {
+      max-width: 150px;
+      margin-top: auto;
+    }
+
+    & .column {
+      max-width: 700px;
+    }
+  }
+  
+  .retailers {
+    margin-top: 50px;
+    background-color: $remote-work-afloat-color-2;
+  }
+
+  .to-share {
+    background-color: $remote-work-afloat-color-4;
+    
+    h2, p, a {
+      color: $remote-work-afloat-color-1;
+    }
+    
+  }
+  
+  .spread-the-word {
+    margin-top: 30px; // This is to match the page-content padding
+    background-color: $remote-work-afloat-color-3;
+
+    p {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.callout-box {
+  border-radius: 25px;
+  padding: 40px;
+  margin: auto;
+
+  &.border-white {
+    border-width: 4px;
+    border-style: solid;
+    border-color: $remote-work-afloat-color-1;
+  }
+
+  &.background-white {
+    background-color: $remote-work-afloat-color-1;
+    color: $remote-work-afloat-color-5;
+  }
+}

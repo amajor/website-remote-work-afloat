@@ -1,0 +1,84 @@
+---
+layout: base
+---
+
+<div class="buy">
+  <div class="columns split main">
+    <div class="column content">
+      {{ content }}
+      <div>
+        <a href="{{ '/about' | relative_url }}" class="pill-button">
+          Learn more about the Book
+        </a>
+      </div>
+    </div>
+    {% if page.featured_image %}
+      <div class="column image">
+        <img src="{{ page.featured_image | relative_url }}" alt="{{ page.featured_image_alt | escape }}" class="home-featured-image" />
+      </div>
+    {% endif %}
+  </div>
+
+  <div class="columns retailers">
+    <div class="column">
+      <h3>Available at the following retailers:</h3>
+      <div class="columns retailer-links">
+        <div class="column">
+          <a href="{{ site.amazon_url }}" target="_blank">
+            <i class="fa-brands fa-amazon fa-5x"></i><br />
+            Amazon
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="columns to-share">
+    <div class="column to-read">
+      <h2>Add it to your “to read” list!</h2>
+      <p>Find the book on your favorite site(s) and add it to your “to read” list:</p>
+      <div class="columns retailer-links">
+        <div class="column">
+          <a href="{{ site.goodreads_url }}" target="_blank">
+            <i class="fa-brands fa-goodreads fa-7x"></i><br />
+            Goodreads
+          </a>
+        </div>
+        <div class="column">
+          <a href="{{ site.storygraph_url }}" target="_blank">
+            <svg width="112px" height="112px" viewBox="0 0 48 48" id="a" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <style>.h{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style>
+              </defs>
+              <g id="b">
+                <g id="c">
+                  <rect id="d" class="h" x="5.5" y="6.6165" width="7.6031" height="29.8423" rx="1" ry="1"/>
+                  <rect id="e" class="h" x="16.5636" y="6.6165" width="7.6031" height="29.8423" rx="1" ry="1"/>
+                  <rect id="f" class="h" x="30.9108" y="6.3431" width="7.6033" height="29.8418" rx="1" ry="1" transform="translate(-4.6835 11.0135) rotate(-16.9062)"/>
+                  <rect id="g" class="h" x="5.5" y="39.0428" width="37" height="2.828" rx="1" ry="1"/>
+                </g>
+              </g>
+            </svg><br />
+            The Storygraph
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="column to-review callout-box border-white">
+      <h2>Already read the book?</h2>
+      <p>Leave a review on your favorite site(s)!</p>
+      <a href="{{ '/review' | relative_url }}" class="pill-button">
+        Review the Book!
+      </a>
+    </div>
+  </div>
+
+  <div class="columns spread-the-word">
+    <div class="column callout-box background-white">
+      <h3>🎉 Help Spread the Word!</h3>
+      <p>If you know someone dreaming of remote work afloat, share this page with them!</p>    
+    </div>
+  </div>
+
+
+</div>

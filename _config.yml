@@ -25,9 +25,14 @@ author:
   country: USA
 description: >- # this means to ignore newlines
   Whether you're planning your transition, choosing the right internet setup, or figuring out how to balance work with adventure, Remote Work Afloat provides practical advice, gear recommendations, and real-world strategies to help you stay connected and productive on the water.
-loop_life_academy_url: "https://looplifeacademy.com"
 amazon_affiliate_disclosure: >- # this means to ignore newlines
   As an Amazon Associate, I earn commission from qualifying purchases.
+
+# External URLs
+loop_life_academy_url: "https://looplifeacademy.com"
+amazon_url: "https://amzn.to/4i0EcAh"
+goodreads_url: "https://www.goodreads.com/book/show/228644718-remote-work-afloat"
+storygraph_url: "https://app.thestorygraph.com/books/ff7885d1-53e6-4f1d-87a9-e4aed2b5ccce"
 
 # Theme settings
 minima:

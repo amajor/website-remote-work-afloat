@@ -173,32 +173,33 @@ a.pill-button {
 .columns {
   display: flex;
   gap: 20px;
-  align-items: center;
+  align-items: stretch;
   justify-content: center;
 
   .column {
+    flex: 1;
     min-width: 0;
-  
-    &.image {
+  }
+
+  &.split {
+    align-items: center; // override stretch if desired
+
+    .column.image {
       flex: 2;
       display: flex;
       justify-content: center;
       align-items: center;
     }
-    
-    &.content {
+
+    .column.content {
       flex: 3;
     }
+  }
 
-    // &.narrow {
-    //   max-width: 50%;
-    // }
-    
-    & img {
-      max-width: 100%;
-      max-height: 550px;
-      height: auto;
-    }
+  img {
+    max-width: 100%;
+    max-height: 550px;
+    height: auto;
   }
 }
 

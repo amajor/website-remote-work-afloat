@@ -3,16 +3,15 @@ layout: base
 ---
 
 <div class="home">
-  <div class="columns">
+  <div class="columns split">
     {% if page.featured_image %}
-    <div class="column image right">
+    <div class="column image">
       <img src="{{ page.featured_image | relative_url }}" alt="{{ page.featured_image_alt | escape }}" class="home-featured-image" />
     </div>
     {% endif %}
     
     <div class="column content">
       {{ content }}
-
       <div>
         <a href="{{ '/about' | relative_url }}" class="pill-button">
           Learn more about the Book

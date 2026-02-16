@@ -36,42 +36,42 @@ layout: base
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {%- for post in posts limit:3 -%}
 
-      <!-- Set post link depending of if from Loop Life or internal -->
-      {% capture post_link %}
-        {% if post.external %}
-          {{ post.external }}
-        {% else %}
-          {{ post.url | relative_url }}
-        {% endif %}
-      {% endcapture %}
-      <!-- End Loop Life captures -->
+        <!-- Set post link depending of if from Loop Life or internal -->
+        {% capture post_link %}
+          {% if post.external %}
+            {{ post.external }}
+          {% else %}
+            {{ post.url | relative_url }}
+          {% endif %}
+        {% endcapture %}
+        <!-- End Loop Life captures -->
 
-      <li class="column">
-        <a class="post-link {% if post.external %}external-link{% endif %}" href="{{ post_link | strip }}" {% if post.external %}target="_blank"{% endif %}>
-          {%- if post.article_title -%}
-            {{ post.article_title | escape }}
-          {%- else -%}
-            {{ post.title | escape }}
+        <li class="column">
+          <a class="post-link {% if post.external %}external-link{% endif %}" href="{{ post_link | strip }}" {% if post.external %}target="_blank"{% endif %}>
+            {%- if post.article_title -%}
+              {{ post.article_title | escape }}
+            {%- else -%}
+              {{ post.title | escape }}
+            {%- endif -%}
+          </a>
+
+          {% if site.minima.show_excerpts %}
+          <p class="summary-excerpt">
+            {{ post.article_excerpt }}
+          </p>
+          {% endif %}
+
+          {%- if post.permalink contains 'looplifeacademy' -%}
+          <p class="post-from-loop-life-academy">[Article from <em><a href="{{ site.loop_life_academy_url }}" target="_blank">Loop Life Academy</a></em>]</p>
           {%- endif -%}
-        </a>
 
-        {%- if site.minima.show_excerpts -%}
-        <p class="summary-excerpt">
-          {{ post.article_excerpt }}
-        </p>
+          <p class="summary-read-more">
+            <a href="{{ post_link | strip }}" {% if post.external %}target="_blank"{% endif %}>Read More &rarr;</a>
+          </p>
 
-        {% if post.permalink contains 'looplifeacademy' %}
-        <p class="post-from-loop-life-academy">[Article from <em><a href="{{ site.loop_life_academy_url }}" target="_blank">Loop Life Academy</a></em>]</p>
-        {% endif %}
+          <span class="post-meta">{{ post.date | date: date_format }}</span>
 
-        <p class="summary-read-more">
-          <a href="{{ post_link | strip }}" {% if post.external %}target="_blank"{% endif %}>Read More &rarr;</a>
-        </p>
-
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-
-        {%- endif -%}
-      </li>
+        </li>
       {%- endfor -%}
     </ul>
     <a href="{{ '/articles' | relative_url }}" class="pill-button white">

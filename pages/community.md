@@ -3,8 +3,8 @@ layout: page_community
 title: Community
 permalink: /community
 content_width: full
-featured_image: assets/img/sailing_vessel_fike-anchored-new_york.jpeg
-featured_image_alt: An anchored sailboat by New York City
+featured_image: assets/img/sailing_vessel_fika-anchored-holland_mi.jpeg
+featured_image_alt: An anchored sailboat near Holland, MI
 ---
 # Welcome to the Remote Work Afloat & Loop Life Academy Community
 

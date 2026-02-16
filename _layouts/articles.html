@@ -3,12 +3,32 @@ layout: base
 ---
 
 <div class="articles">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
+  <div class="columns split main">
+    <div class="column content">
+      {{ content }}
+    </div>
+    {% if page.featured_image %}
+      <div class="column image">
+        <img src="{{ page.featured_image | relative_url }}" alt="{{ page.featured_image_alt | escape }}" class="home-featured-image" />
+      </div>
+    {% endif %}
+  </div>
 
-  {{ content }}
-
+  <!-- Article Categories -->
+   <div class="article-categories">
+      <div class="container">
+        {% for category in site.data.blog_categories %}
+          <div class="item item-categories">
+            <h3>{{ category.title }}</h3>
+            <p>{{ category.description }}</p>
+            <a class="pill-button small" href="{{ category.url | relative_url }}">
+              {{ category.button_text }}
+            </a>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
 
   {% if site.paginate %}
     {% assign posts = paginator.posts %}

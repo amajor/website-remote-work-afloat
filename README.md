@@ -138,6 +138,42 @@ https://github.com/jekyll/jekyll-seo-tag/tree/master
 
 # Articles & Posts
 
+## Organization
+
+### Categories
+
+Categories will be used to orgnaize topics onto pages for specific drill-down.
+Think of categories as navigation structure.
+
+-	`remote-work`
+-	`careers-from-a-boat`
+-	`boat-budget`
+-	`boats`
+-	`apps`
+
+These will power pages like:
+-	`/remote-work/`
+-	`/careers-from-a-boat/`
+-	`/boat-budget/`
+-	`/boats/`
+-	`/apps/`
+
+### Tags
+
+Tags should be smaller concepts that can overlap categories.
+Think of tags as filtering, SEO, and maybe future tag pages.
+
+-	`digital-nomad`
+-	`great-loop`
+-	`internet`
+-	`weather`
+-	`family`
+-	`relationships`
+-	`youtube`
+-	`business-travel`
+-	`passage-planning`
+-	`wellness`
+
 ## Show Featured Posts:
 
 In the blog post:

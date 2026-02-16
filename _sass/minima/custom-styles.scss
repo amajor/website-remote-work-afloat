@@ -344,13 +344,14 @@ a.pill-button {
 
     hr {
       width: 50%;
-      margin: 40px auto;
+      margin: 40px auto 0;
       border-top: 1px solid $remote-work-afloat-color-3;
     }
   }
 }
 
-.gear-categories, .gear-items {
+.gear-categories, .gear-items, .article-categories {
+  margin: 40px auto;
   .container {
     display: flex;
     flex-wrap: wrap; /* Allows items to flow to the next row */
@@ -363,12 +364,22 @@ a.pill-button {
       flex: 1 1 0; /* grow, shrink, flex-basis: 0 */
       min-width: 300px; /* Optional: Sets a minimum width before wrapping */
       /* Ensures heights are equal if parent is a flex container */
+
+      &.item-categories {
+        display: flex;
+        flex-direction: column;
+        flex: 1 1 0; /* grow, shrink, flex-basis: 0 */
+      }
     
       &.featured {
         background-color: $remote-work-afloat-color-4;
         h3, p {
           color: $remote-work-afloat-color-1;
         }
+      }
+
+      & a {
+        margin-top: auto;
       }
     }
 
@@ -381,6 +392,11 @@ a.pill-button {
 .gear-footer {
   text-align: center;
   margin-top: 60px;
+}
+
+.articles .main {
+  max-width: 900px;
+  margin: auto;
 }
 
 // Buy Page
@@ -591,4 +607,36 @@ a.pill-button {
   span {
     color: $remote-work-afloat-color-4;
   }
+}
+
+// Tags
+.post-tags {
+  margin-top: 2rem;
+}
+
+.tag-link {
+  display: inline-block;
+  margin-right: 0.5rem;
+  font-size: 0.9rem;
+  text-decoration: none;
+  background: #eef5ff;
+  padding: 4px 10px;
+  border-radius: 20px;
+}
+
+.tag-link:hover {
+  background: #dbeaff;
+}
+
+.tag-section {
+  margin-top: 3rem;
+}
+
+.tag-post-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.tag-post-list li {
+  margin-bottom: 0.5rem;
 }

@@ -17,4 +17,15 @@ layout: base
     {{ content }}
   </div>
 
+  {% if page.tags %}
+    <div class="post-tags">
+      {% for tag in page.tags %}
+        <a class="tag-link"
+          href="{{ '/tags/#' | append: tag | relative_url }}">
+          #{{ tag | replace: '-', ' ' }}
+        </a>
+      {% endfor %}
+    </div>
+  {% endif %}
+
 </article>

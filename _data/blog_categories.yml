@@ -1,0 +1,25 @@
+- slug: remote-work
+  title: Remote Work Tips & Ideas
+  button_text: Remote Work Articles
+  url: /articles/remote-work/
+
+- slug: careers-from-a-boat
+  title: Careers You Can Do From a Boat
+  button_text: Boat-Friendly Careers
+  url: /articles/careers-from-a-boat/
+
+- slug: boat-budget
+  title: Boat Life Budgeting
+  button_text: Budget Articles
+  url: /articles/boat-budget/
+
+- slug: boats
+  title: Choosing the Right Boat
+  button_text: Boat Articles
+  url: /articles/boats/
+
+- slug: apps
+  title: Apps for Life Afloat
+  button_text: Apps Articles
+  url: /articles/apps/
+  

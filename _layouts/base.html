@@ -1,3 +1,6 @@
+---
+---
+
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 
@@ -7,7 +10,7 @@
 
     {%- include header.html -%}
 
-    <main class="page-content" aria-label="Content">
+    <main class="page-content {{ page.content_width | default: 'standard' }}" aria-label="Content">
       <div class="wrapper">
         {{ content }}
       </div>

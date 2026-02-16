@@ -475,6 +475,14 @@ a.pill-button {
 }
 
 .community {
+  a {
+    color: $remote-work-afloat-color-3;
+    &:hover {
+      text-decoration: underline;
+      text-underline-offset: 0.25em;  text-decoration-thickness: 1px;
+    }
+  }
+  
   .main, .learn-plan-thrive {
     padding: 40px 10%;
 
@@ -502,6 +510,10 @@ a.pill-button {
 
       .resource-items {
         flex-grow: 1;
+
+        .resource-item {
+          margin-bottom: 15px;
+        }
       }
     }
   }

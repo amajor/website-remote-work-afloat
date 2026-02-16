@@ -1,5 +1,6 @@
-- title: "Courses & Training"
-  emoji: "📚"
+- title: "📚 Courses & Training"
+  description: "Want to fast-track your cruising knowledge? Our courses provide in-depth guidance on essential topics like:" 
+  bullet: "✅"
   background: "light-blue"
   items:
     - title: "5 Steps to Remote Work on a Boat"
@@ -10,8 +11,9 @@
     text: "🎓 Explore Courses Here"
     url: "https://www.looplifeacademy.com/online-courses"
 
-- title: "Must-Read Guides & Articles"
-  emoji: "🌊"
+- title: "🌊 Must-Read Guides & Articles"
+  description: "Not sure where to start? Dive into some of our most popular resources:"
+  bullet: "🔹"
   background: "light-blue"
   items:
     - title: "Essential Navigation Tools for Boaters: What to Keep on Board"
@@ -24,8 +26,9 @@
     text: "📖 Browse All Articles"
     url: "https://www.looplifeacademy.com/blog"
 
-- title: "Downloadable Resources"
-  emoji: "📥"
+- title: "📥 Downloadable Resources"
+  description: "Get access to exclusive tools to simplify your cruising and remote work journey:"
+  bullet: "📌"
   background: "light-blue"
   items:
     - title: "Great Loop Planning Checklist"
@@ -35,7 +38,8 @@
       url: "https://www.looplifeacademy.com/checklist-passage-day"
       description: "A step-by-step guide to route planning."
     - title: "Remote Work Afloat Guide"
-      url: "./downloads.md"
+      url: "/downloads/"
+      internal: true
       description: "Editable lists, links, and resources for Remote Work Afloat readers."
   cta:
     text: "✉️ Get Email Tips"

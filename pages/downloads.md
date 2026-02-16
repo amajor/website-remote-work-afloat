@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Downloads
-permalink: /downloads
+permalink: /downloads/
 ---
 # Thanks for reading my book, Remote Work Afloat.
 

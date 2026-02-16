@@ -6,11 +6,6 @@ layout: base
   <div class="columns split main">
     <div class="column content">
       {{ content }}
-      <div>
-        <a href="{{ '/about' | relative_url }}" class="pill-button">
-          Learn more about the Book
-        </a>
-      </div>
     </div>
 
     {% if page.featured_image %}
@@ -82,22 +77,29 @@ layout: base
     <p class="center">Whether you’re preparing for the Great Loop, navigating life as a remote worker on the water, or looking for expert advice, <a href="{{ site.loop_life_academy_url }}" target="_blank">Loop Life Academy</a> has the tools and resources to help you succeed.</p>
     <div class="columns resource-sections">
       {% for section in site.data.community_resources %}
+        {% assign bullet = section.bullet | default: "✅" %}
         <div class="column resource-box {{ section.background }}">
           
-          <h2>{{ section.emoji }} {{ section.title }}</h2>
+          <h2>{{ section.title }}</h2>
+          <p>{{ section.description }}</p>
 
           <div class="resource-items">
             {% for item in section.items %}
               
               <div class="resource-item">
+                {{ bullet }}
                 {% if item.url %}
                   <strong>
-                    <a href="{{ item.url }}" target="_blank">
+                    {% if item.internal %}
+                      <a href="{{ item.url | relative_url }}">
+                    {% else %}
+                      <a href="{{ item.url }}" target="_blank">
+                    {% endif %}
                       {{ item.title }}
                     </a>
                   </strong>
                 {% else %}
-                  <strong>✅ {{ item.title }}</strong>
+                  <strong>{{ item.title }}</strong>
                 {% endif %}
 
                 {% if item.description %}

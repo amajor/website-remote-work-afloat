@@ -1,6 +1,7 @@
 ---
 layout: page_gear_items
 title: Necessary Devices
+content_width: wide
 permalink: /gear/necessary-devices
 category: 0
 ---

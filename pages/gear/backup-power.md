@@ -1,6 +1,7 @@
 ---
 layout: page_gear_items
 title: Backup Power
+content_width: wide
 permalink: /gear/backup-power
 category: 3
 ---

@@ -1,6 +1,7 @@
 ---
 layout: page_gear_items
 title: Internet Solutions
+content_width: wide
 permalink: /gear/internet-solutions
 category: 2
 ---

@@ -1,6 +1,7 @@
 ---
 layout: page_gear_items
 title: Peripheral Devices
+content_width: wide
 permalink: /gear/peripheral-devices
 category: 1
 ---

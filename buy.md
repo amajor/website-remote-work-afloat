@@ -33,8 +33,6 @@ Leave a review on your favorite site(s)!
 
 [Review the Book!](./review.md)
 
-[Review the Book!]({{ site.baseurl }}/review.md)
-
 ---
 
 # 🎉 Help Spread the Word!

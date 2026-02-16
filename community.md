@@ -125,7 +125,7 @@ Get access to exclusive tools to simplify your cruising and remote work journey:
 
 ### 📌 [Passage Planning Checklist](https://www.looplifeacademy.com/checklist-passage-day) – A step-by-step guide to route planning.
 
-### 📌 [Remote Work Afloat Guide](/downloads) – Editable lists, links, and resources for Remote Work Afloat readers.
+### 📌 [Remote Work Afloat Guide](./downloads.md) – Editable lists, links, and resources for Remote Work Afloat readers.
 
 In addition to the downloads, you can sign up for the Loop Life Academy emails!
 

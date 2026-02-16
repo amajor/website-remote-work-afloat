@@ -17,7 +17,7 @@ Join the Loop Life Academy community and connect with fellow adventurers navigat
 
 Our email newsletter brings you expert cruising tips, in-depth blogs, and resources to help you make the most of life on the water. Whether you’re looking for navigation advice, remote work solutions, or inspiration for your next stop, we’ve got you covered!
 
-<a href="https://www.looplifeacademy.com/newsletter" target="_blank">
+<a href="{{ site.loop_life_academy_url }}/newsletter" target="_blank">
   Sign up today and never miss an update!
 </a>
 

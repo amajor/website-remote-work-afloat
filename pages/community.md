@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: page_community
 title: Community
 permalink: /community
+content_width: full
 ---
 # Welcome to the Remote Work Afloat & Loop Life Academy Community
 
@@ -134,11 +135,3 @@ In addition to the downloads, you can sign up for the Loop Life Academy emails!
 ## 🚀 Ready to make the most of your adventure?
 
 Check out Loop Life Academy for expert guidance, tools, and support to help you thrive on the water!
-
-#todo
-<!--
-# Featured Articles & Content
-
-Here are some of our favorite articles and videos to inspire your next adventure and help you on your journey:
-
-<!-- TODO: Insert featured blog posts here -->

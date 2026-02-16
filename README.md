@@ -135,3 +135,61 @@ jekyll-seo-tag - Adds meta tags to help with SEO
 TODO: Install and use this plugin that was part of the minima theme.
 
 https://github.com/jekyll/jekyll-seo-tag/tree/master
+
+# Articles & Posts
+
+## Show Featured Posts:
+
+In the blog post:
+
+```yaml
+---
+title: My Post
+date: 2026-02-15
+categories: blog
+tags: [remote-work, sailing]
+featured: true
+---
+```
+
+Then in the layout template:
+
+```liquid
+{% assign featured_posts = site.posts | where: "featured", true %}
+
+{% for post in featured_posts limit:3 %}
+  <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+{% endfor %}
+```
+
+## Featured Posts Sorted by Date:
+
+```liquid
+{% assign featured_posts = site.posts 
+  | where: "featured", true 
+  | sort: "date" 
+  | reverse %}
+```
+
+## Featured Posts within a Specific Category:
+
+```liquid
+{% assign blog_posts = site.categories.blog %}
+{% assign featured_blog = blog_posts | where: "featured", true %}
+
+{% for post in featured_blog %}
+```
+
+## Randomize Featured Posts
+
+Set the sample size to equal the same as your limit number that you'll return.
+
+```liquid
+{% assign featured_posts = site.posts | where: "featured", true | sample: 10 %}
+
+<!-- Later in the code... -->
+
+{%- for post in featured_posts limit:4 -%}
+  <!-- Formatting and all that -->
+{%- endfor -%}
+```

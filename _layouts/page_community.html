@@ -1,0 +1,63 @@
+---
+layout: base
+---
+
+<div class="community">
+  {{ content }}
+
+  <!-- Including sample will randomize our results -->
+  {% assign featured_posts = site.posts | where: "featured", true | sample: 4 %}
+
+  {%- if featured_posts.size > 0 -%}
+  <hr />
+
+  <div class="featured-posts">
+    <h2 class="center">Featured Articles & Content</h2>
+    <p class="center">Here are some of our favorite articles and videos to inspire your next adventure and help you on your journey:</p>
+
+    <ul class="post-list columns">
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+
+      {%- for post in featured_posts limit:4 -%}
+        {% capture post_link %}
+          {% if post.external %}
+            {{ post.external }}
+          {% else %}
+            {{ post.url | relative_url }}
+          {% endif %}
+        {% endcapture %}
+
+        <li class="column">
+          <a class="post-link {% if post.external %}external-link{% endif %}" href="{{ post_link | strip }}" {% if post.external %}target="_blank"{% endif %}>
+            {%- if post.article_title -%}
+              {{ post.article_title | escape }}
+            {%- else -%}
+              {{ post.title | escape }}
+            {%- endif -%}
+          </a>
+
+          {%- if site.minima.show_excerpts -%}
+          <p class="summary-excerpt">
+            {{ post.article_excerpt }}
+          </p>
+          {%- endif -%}
+
+          {%- if post.permalink contains 'looplifeacademy' -%}
+          <p class="post-from-loop-life-academy">[Article from <em><a href="{{ site.loop_life_academy_url }}" target="_blank">Loop Life Academy</a></em>]</p>
+          {%- endif -%}
+
+          <p class="summary-read-more">
+            <a href="{{ post_link | strip }}" {% if post.external %}target="_blank"{% endif %}>Read More &rarr;</a>
+          </p>
+
+          <!-- <span class="post-meta">{{ post.date | date: date_format }}</span> -->
+        </li>
+      {%- endfor -%}
+    </ul>
+
+    <a href="{{ '/articles' | relative_url }}" class="pill-button white">
+      View All Articles
+    </a>
+  </div>
+  {%- endif -%}
+</div>

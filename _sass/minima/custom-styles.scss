@@ -451,3 +451,33 @@ a.pill-button {
     }
   }
 }
+
+.community {
+  .featured-posts {
+    background-color: $remote-work-afloat-color-2;
+    padding: 40px 100px;
+    margin-bottom: -30px;
+
+    .post-link {
+      font-size: 1.25em;
+      color: $remote-work-afloat-color-5;
+
+      &:hover {
+        text-decoration: underline;
+        text-underline-offset: 0.25em;  text-decoration-thickness: 1px;
+      }
+    }
+    .post-meta {
+      font-size: 0.75em;
+      color: $remote-work-afloat-color-4;
+    }
+  }
+
+  .post-list {
+    margin-top: 40px;
+  }
+}
+
+.center {
+  text-align: center;
+}

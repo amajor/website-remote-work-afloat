@@ -56,13 +56,13 @@ layout: base
           </a>
 
           {% if site.minima.show_excerpts %}
-          <p class="summary-excerpt">
-            {{ post.article_excerpt }}
-          </p>
+            <p class="summary-excerpt">
+              {{ post.article_excerpt }}
+            </p>
           {% endif %}
 
           {%- if post.permalink contains 'looplifeacademy' -%}
-          <p class="post-from-loop-life-academy">[Article from <em><a href="{{ site.loop_life_academy_url }}" target="_blank">Loop Life Academy</a></em>]</p>
+            <p class="post-from-loop-life-academy">[Article from <em><a href="{{ site.loop_life_academy_url }}" target="_blank">Loop Life Academy</a></em>]</p>
           {%- endif -%}
 
           <p class="summary-read-more">

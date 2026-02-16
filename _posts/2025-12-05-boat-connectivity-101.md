@@ -1,18 +1,15 @@
 ---
-title: "Best Boat Router for Loopers: Bonding vs. Failover, Peplink Options, and Real Cruiser Setups — Remote Work Afloat"
+title: "Best Boat Router for Loopers: Bonding vs. Failover, Peplink Options, and Real Cruiser Setups"
 date: 2025-12-05 08:00:00 -0500
-category: Remote Work
+categories:
+  - remote-work
 tags:
   - digital-nomad
-  - internet-connections
-  - work-from-anywhere
+  - internet
 permalink: /articles/boat-connectivity-101
-article_title: Router
+article_title: "Boat Connectivity 101: Choosing a Router That Actually Works for Life Afloat"
 article_excerpt: Staying connected on the water doesn’t have to mean constantly switching between Starlink, marina Wi-Fi, and your phone’s hotspot. Let’s break down the difference between bonding and failover, share what we use aboard Fika, and offer real-world recommendations from other cruisers who work remotely while cruising full-time. If you’re overwhelmed by Peplink’s dozens of models, or you just want a setup that “just works,” this will help you narrow things down.
 ---
-
-# Boat Connectivity 101: Choosing a Router That Actually Works for Life Afloat
-
 One of the biggest stress points when we first moved aboard wasn’t the small space or the weather windows or even homeschooling on the move… it was the internet.
 
 Trying to work remotely while cruising means you’re constantly juggling marina Wi-Fi, Starlink, and cellular service. And if you have a family with many devices (hi, that’s us), the last thing you want is to reconnect everything every time you switch to a different connection.

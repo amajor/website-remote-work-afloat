@@ -37,4 +37,7 @@ featured: false
 > 
 > Be sure to update the **permalink** as well! It should be in this format:
 > `/articles/slug/`
+> 
+> Internal links will look like this:
+> `<a href="{{ '/buy' | relative_url }}">Check it out here</a>`
 

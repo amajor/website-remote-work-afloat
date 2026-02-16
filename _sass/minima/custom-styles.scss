@@ -334,6 +334,13 @@ a.pill-button {
       flex: 1 1 0; /* grow, shrink, flex-basis: 0 */
       min-width: 300px; /* Optional: Sets a minimum width before wrapping */
       /* Ensures heights are equal if parent is a flex container */
+    
+      &.featured {
+        background-color: $remote-work-afloat-color-4;
+        h3, p {
+          color: $remote-work-afloat-color-1;
+        }
+      }
     }
 
     .item-categories {

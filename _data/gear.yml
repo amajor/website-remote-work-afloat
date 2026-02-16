@@ -2,53 +2,150 @@
   description: "The core tech you need to work remotely from your boat, from laptops to power essentials."
   link: /gear/necessary-devices
   items:
-    - name: Laptop & Power Cord
-      description: "A laptop is the heart of your remote office. It is portable, space-saving, and essential for working on a boat. Choose one with a clear display, long battery life, and enough processing power for your needs. Keep in mind that humidity and salty air can shorten its lifespan."
-      link: https://amzn.to/41sNwXv
+  - name: Laptop & Power Cord
+    description: "A laptop is the heart of your remote office. It is portable, space-saving, and essential for working on a boat. Choose one with a clear display, long battery life, and enough processing power for your needs. Keep in mind that humidity and salty air can shorten its lifespan."
+    link: https://amzn.to/41sNwXv
 
-    - name: Desktop Computer
-      description: "If a desktop is essential for your work, be mindful of its size and power demands. Desktops can drain your battery bank quickly, so ensure you have a reliable power source like solar, wind, or a generator. For most remote jobs, though, a laptop is sufficient and often supplied by your employer."
-      link: https://amzn.to/4gYntMD
+  - name: Desktop Computer
+    description: "If a desktop is essential for your work, be mindful of its size and power demands. Desktops can drain your battery bank quickly, so ensure you have a reliable power source like solar, wind, or a generator. For most remote jobs, though, a laptop is sufficient and often supplied by your employer."
+    link: https://amzn.to/4gYntMD
 
-    - name: Smartphone
-      description: "A reliable smartphone is more than just a backup—it’s perfect for quick tasks and staying connected, especially in tight spaces."
-      link: https://amzn.to/3QzaINy
+  - name: Smartphone
+    description: "A reliable smartphone is more than just a backup—it’s perfect for quick tasks and staying connected, especially in tight spaces."
+    link: https://amzn.to/3QzaINy
 
-    - name: Tablet
-      description: "A tablet is more than just a backup—it’s great for quick tasks, staying connected in small spaces, and can even double as an extra monitor when needed."
-      link: https://amzn.to/41aBdOh
+  - name: Tablet
+    description: "A tablet is more than just a backup—it’s great for quick tasks, staying connected in small spaces, and can even double as an extra monitor when needed."
+    link: https://amzn.to/41aBdOh
 
-    - name: External Monitor
-      description: "An external monitor can boost productivity by providing extra screen space and a more ergonomic setup. However, many are power-hungry, so if you’re at anchor, plan for the energy impact, especially when relying on solar or a generator."
-      link: https://amzn.to/4kgqZVh
+  - name: External Monitor
+    description: "An external monitor can boost productivity by providing extra screen space and a more ergonomic setup. However, many are power-hungry, so if you’re at anchor, plan for the energy impact, especially when relying on solar or a generator."
+    link: https://amzn.to/4kgqZVh
 
-    - name: Monitor Mount
-      description: "If you do go with an external monitor, invest in a monitor mount. It secures your screen, keeps it from sliding if your boat rocks, and lets you position it at an ergonomic height. Trust me—on a boat, anything not tied down has the potential to become a projectile, even on calm days when an unexpected wake rolls in."
-      link: https://amzn.to/4ienc9a
-    
-    - name: Noise-cancelling Headphones
-      description: "Perfect for tuning out distractions, noise-canceling headphones create a quiet workspace no matter where you are. Whether it’s the hum of a neighbor’s engine or wind whistling through the rigging, these headphones help you stay focused by blocking out unwanted noise."
-      link: https://amzn.to/41hBIpZ
+  - name: Monitor Mount
+    description: "If you do go with an external monitor, invest in a monitor mount. It secures your screen, keeps it from sliding if your boat rocks, and lets you position it at an ergonomic height. Trust me—on a boat, anything not tied down has the potential to become a projectile, even on calm days when an unexpected wake rolls in."
+    link: https://amzn.to/4ienc9a
+  
+  - name: Noise-cancelling Headphones
+    description: "Perfect for tuning out distractions, noise-canceling headphones create a quiet workspace no matter where you are. Whether it’s the hum of a neighbor’s engine or wind whistling through the rigging, these headphones help you stay focused by blocking out unwanted noise."
+    link: https://amzn.to/41hBIpZ
 
-    - name: Bone-Conducting Headphones
-      description: "Unlike traditional headphones, bone-conducting models let you listen without covering your ears, keeping you aware of your surroundings. I love using them while working because they allow me to hear what’s happening on deck while still enjoying music, podcasts, or calls. I use Shokz Minis as they fit my head size better, so double-check your size options."
-      link: https://amzn.to/41hBIpZ
+  - name: Bone-Conducting Headphones
+    description: "Unlike traditional headphones, bone-conducting models let you listen without covering your ears, keeping you aware of your surroundings. I love using them while working because they allow me to hear what’s happening on deck while still enjoying music, podcasts, or calls. I use Shokz Minis as they fit my head size better, so double-check your size options."
+    link: https://amzn.to/41hBIpZ
 
-    - name: Ear Plugs
-      description: "Sound-dampening earplugs are a great option for reducing background noise while remaining aware. They help minimize sharp or disruptive sounds, making it easier to concentrate. They are especially effective when paired with bone-conducting headphones, which provide a balanced mix of awareness and focus. I use the Loop Engage Ear Plugs."
-      link: https://amzn.to/3QxohNy
+  - name: Ear Plugs
+    description: "Sound-dampening earplugs are a great option for reducing background noise while remaining aware. They help minimize sharp or disruptive sounds, making it easier to concentrate. They are especially effective when paired with bone-conducting headphones, which provide a balanced mix of awareness and focus. I use the Loop Engage Ear Plugs."
+    link: https://amzn.to/3QxohNy
 
 - category: Peripheral Devices
   description: "Useful add-ons like external monitors, headphones, and accessories to enhance your workspace."
   link: /gear/peripheral-devices
+  items:
+  - name: Lap Desk
+    description: "If an external monitor isn’t necessary—or if you’re craving flexibility—a lap desk with a cushion is a game-changer. It’s perfect for when you want to escape your usual desk and find a cozy spot on the boat. The cushion helps keep your laptop from overheating while also giving you a more comfortable work position. Whether you’re working from the salon or your favorite nook, a lap desk lets you create a makeshift workspace wherever you feel inspired."
+    link: https://amzn.to/4h4XFye
+
+  - name: Laptop Stand
+    description: "A lightweight, foldable laptop stand is a must for the ultimate portable workstation. It raises your laptop to eye level, preventing neck strain from constantly looking down. The link leads to the stand I have. Sometimes, I’ll even throw it in my backpack and take my entire portable setup to the library to work for an afternoon."
+    link: https://amzn.to/4hU7oZG
+
+  - name: Wireless (Split) Keyboard
+    description: "If you’re using a laptop stand, you’ll want to pair it with a wireless keyboard. A split keyboard, in particular, encourages a natural hand position, helping to avoid wrist strain. The one I’ve linked below is the one I have, but there are other options available with varying ergonomics built in. This minor upgrade can significantly affect your comfort, especially during long work sessions."
+    link: https://amzn.to/41zOxNO
+
+  - name: Vertical Mouse
+    description: "When it comes to mice, personal preference is key. While I prefer a trackpad for its precision and ease, my husband swears by his vertical mouse, which helps reduce wrist strain. Below is the Logitech Vertical Mouse that he uses, but you may want to try a few styles to figure out what fits best for you."
+    link: https://amzn.to/4gV1Psw
+
+  - name: Trackpad
+    description: "Like the vertical mouse, the trackpad is a matter of personal preference. I love its precision and ease of use, making it a solid option for anyone who works with their laptop set up on a stand. It’s a compact and straightforward tool that pairs well with your portable workstation, and if you’re on a boat, space is always at a premium. It’s all about finding what feels best for you—whether that’s a trackpad, a mouse, or something else entirely. I use an Apple trackpad, but I’ve linked to the generic search for you below."
+    link: https://amzn.to/3QCkpLf
+
+  - name: Webcam
+    description: "Most laptops come with decent built-in cameras, but if you want to look more professional or improve your image quality, investing in a high-quality external webcam is worth it. A good webcam can significantly enhance your video conferencing experience, especially if you need to manage specific lighting or require a clearer picture. Plus, it’s an easy upgrade that doesn’t take up much space on the boat."
+    link: https://amzn.to/3QAnN9F
+
+  - name: Microphone
+    description: "Audio quality is just as important as video quality when it comes to virtual meetings. Built-in laptop microphones often don’t provide the clearest sound, so a good external microphone or headset is essential for clear communication. Whether you’re presenting or just chatting, this upgrade ensures you’re heard loud and clear, making your calls more effective and professional."
+    link: https://amzn.to/41ivczl
+
+  - name: Proper Lighting
+    description: "Lighting can make a world of difference when you’re on camera. Whether you’re relying on natural light or using a ring light, good lighting ensures you show up looking polished and engaged. It’s simple to adjust your setup to get the best lighting, and it’ll go a long way toward making your video calls more professional and comfortable."
+    link: https://amzn.to/3XoZmj5
 
 - category: Internet Solutions
   description: "Reliable connectivity options for staying online no matter where your boat takes you."
   link: /gear/internet-solutions
+  items: 
+  - name: Starlink
+    description: "Starlink provides reliable internet even in remote locations, making it a game-changer for cruisers. With speeds that support streaming, work, and staying connected, it’s perfect for when cellular service is unavailable. While it does have a significant power draw, you can manage it with a direct 12V connection or by toggling it off when not in use. Keep in mind that upload speeds can be slower, especially with a VPN, and weather or anchorage conditions may cause occasional interruptions. Overall, it’s a top choice for cruisers needing a consistent internet connection while on the move."
+    link: https://www.starlink.com/roam?referral=RC-2020659-90333-57
+    label: Learn About Starlink
+    minwidth: "40%"
+    featured: true
+
+  - name: Starlink DC-to-DC Power Supply
+    description: "For boaters using Starlink, the new DC-to-DC power supply option is a great way to simplify your setup. It connects directly to your boat’s 12V system, eliminating the need for an inverter or extra power converters. This streamlined option is more efficient and reduces the complexity of managing your Starlink power needs. It’s an easy way to ensure you get reliable internet without unnecessarily draining your boat’s battery. Plus, more accessories are available to help customize and optimize your Starlink experience, from mounting solutions to power management systems."
+    minwidth: "40%"
+    featured: true
+
+  - name: Cellular Data
+    description: "When you’re out at sea or anchored in a remote location, cellular data is often your lifeline for staying connected. You can use your phone’s hotspot or opt for a service like the Calyx Institute for a more robust, reliable connection. Cellular data plans can vary in cost and coverage, so it’s worth comparing options to find one that fits your needs. It’s a great way to stay connected when Wi-Fi isn’t available, as long as there’s a cellular signal."
+    link: https://calyxinstitute.org/membership/internet
+    label: Learn About Calyx Institute
+
+  - name: Mobile Hotspot
+    description: "A mobile hotspot is an essential tool for boat life, allowing you to convert a cellular data connection into Wi-Fi for multiple devices. While many smartphones have a built-in hotspot feature, standalone mobile hotspots are more powerful and reliable, especially when you need to support multiple devices. These devices are lifesavers when you’re anchored far from shore or in a location without traditional Wi-Fi. Look for models that have long battery life and strong signal capabilities to make the most of your internet connection."
+    link: https://amzn.to/4gW8MK1
+
+  - name: SIM Cards
+    description: "SIM cards are your gateway to cellular networks around the world, and having the right ones can make all the difference when cruising. Depending on where you’re traveling, consider getting local SIM cards or an international plan to get the best coverage and rates. Some services offer data SIMs specifically for travelers, giving you the flexibility to choose the best options for your internet needs while you’re on the water."
+
+  - name: Signal Booster / Cellular Repeater
+    description: "When you’re relying on cellular data for internet access, weak signals can be a major frustration. A signal booster or cellular repeater solves this problem by capturing a weak signal, amplifying it, and rebroadcasting it inside your boat. It can significantly improve reception and speeds, which is especially helpful in remote areas where cellular coverage is limited. If you’re in an area with marginal service, a signal booster might be just the thing to give you the reliable connection you need to stay productive."
+    link: https://amzn.to/41fZvGN
+
+  - name: Pepwave Routers, Bonded Connections, etc.
+    description: "Pepwave routers are a fantastic solution for cruisers who need a reliable, fast, and secure internet connection on the go. These routers can bond multiple internet sources (like cellular, Starlink, or Wi-Fi) to create a stronger and more stable connection, which is crucial for remote work. Whether you’re using cellular data, satellite, or shore-based Wi-Fi, Pepwave routers ensure that you’re always connected, even if one connection drops. It’s an investment that can significantly improve your internet experience when working remotely from the boat."
+    label: Learn About Peplink SpeedFusion
+    link: https://www.peplink.com/technology/speedfusion-bonding-technology/
+
+  - name: Routers
+    description: "A good router is key to ensuring you have a strong and reliable Wi-Fi connection throughout your boat. The router acts as the central hub for all your devices, whether you’re working on your laptop, streaming, or checking email. Look for one with dual-band capabilities to reduce interference and keep your connection stable even when you’re at anchor. Some routers also have marine-grade options that are built to withstand the harsh conditions of life on the water. You’ll need a solid router to handle your onboard network and ensure all your devices stay connected."
+    link: https://amzn.to/4ku7mtc
+
+  - name: Range Extenders
+    description: "If you’re already connected to a Wi-Fi network but need to ensure it reaches every part of your boat, a Wi-Fi range extender is a must. This device amplifies the signal from your router or an external Wi-Fi source, ensuring reliable coverage even in remote areas of your boat, like the far corners or outdoor spaces. For life on the water, make sure to choose a marine-grade range extender designed to handle the elements. Experiment with placement and test signal strength to make sure you’re getting the best performance out of your setup."
+    link: https://amzn.to/3QCy6di
+
+  - name: Ethernet Cables
+    description: "Though Wi-Fi is convenient, nothing beats the reliability and speed of a wired Ethernet connection. If you need the most stable internet possible, using an Ethernet cable can ensure you get the best speeds and performance, especially for tasks like video calls or large file uploads. Many routers and devices can be connected via Ethernet, and it’s a great option for setting up a fixed workspace on the boat. Whether you’re docked or on a stable anchor, using an Ethernet cable can help you avoid any Wi-Fi hiccups."
+    link: https://amzn.to/4i90yz8
 
 - category: Backup Power
   description: "Staying powered up is essential when working remotely from a boat. From solar panels to portable batteries, having reliable backup power ensures you can keep working even when you’re off-grid."
   link: /gear/backup-power
+  items:
+  - name: Power Bank
+    description: "A good power bank is one of our most used tools on board. It’s perfect for keeping devices like laptops running when we’re out of shore power range. We’ve found that larger capacity power banks, especially those with fast-charging capabilities, help us extend our workday while managing energy use on the boat. Trust me; it’s worth the investment for the peace of mind it brings! We like the Anker brand power banks, which are linked below."
+    link: https://amzn.to/4ica9pr
+  
+  - name: Portable Charger
+    description: "Portable chargers are a must-have on a boat for days when you need a little extra juice. Although they usually have a smaller capacity than a power bank, they can still be helpful."
+    link: https://amzn.to/4ifv2PY
+
+  - name: Inverters
+    description: "Inverters are essential for using AC-powered devices like laptops or coffee makers on a boat. They convert your boat’s DC power into the AC power that household electronics need. Just keep in mind that inverters pull from your battery bank, so it’s important to manage their use, especially when you’re off the grid and trying to conserve energy."
+    link: https://amzn.to/3Xo7FMe
+
+  - name: Generator
+    description: "A portable generator is a great backup when your solar panels or inverter can’t keep up. We use ours for extra power, whether charging the central battery bank or running devices like Starlink. Generators can be noisy, so always check local marina rules before firing them. Safety is key—never run a generator in an enclosed space due to the risk of carbon monoxide. We prefer the Honda generator, but if you can’t get that, try for Generac."
+    link: https://amzn.to/43gLMCm
+
+  - name: High-Output Alternators
+    description: "High-output alternators are a game-changer for keeping your house batteries topped up while cruising. They provide a steady stream of power to recharge batteries as you’re underway, making it easier to manage power needs without relying solely on solar or a generator. If you’re cruising a lot, it’s definitely worth considering for more consistent power on the go."
+    link: https://amzn.to/41xis9h
 
 # - category: Portable & Compact Office Supplies
 #   description: "Space-saving office tools that keep you organized and efficient in a small workspace."

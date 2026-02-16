@@ -21,7 +21,7 @@ layout: base
     <p class="associate-disclosure">{{ site.amazon_affiliate_disclosure }}</p>
     <div class="container">
       {% for item in site.data.gear[page.category].items %}
-        <div class="item">
+      <div class="item {% if item.featured %}featured{% endif %}" {% if item.minwidth %} style="min-width: {{ item.minwidth }};" {% endif %}>
           {% if item.image %}
             <img src="{{ item.image | relative_url }}" alt="{{ item.name | escape }}" class="gear-item-image" />
           {% endif %}
@@ -31,7 +31,11 @@ layout: base
           {% endif %}
           {% if item.link %}
             <a class="pill-button" href="{{ item.link }}" target="_blank">
-              Find on Amazon
+              {% if item.label %}
+                {{item.label}}
+              {% else %}
+                Find on Amazon
+              {% endif %}
             </a>
           {% endif %}
         </div>

@@ -133,6 +133,10 @@ a.pill-button {
     background-color: $remote-work-afloat-color-1;
     color: $remote-work-afloat-color-5;
   }
+
+  &.active-link {
+    text-decoration: none;
+  }
 }
 
 .pill-button:hover {

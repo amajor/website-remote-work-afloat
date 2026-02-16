@@ -3,7 +3,126 @@ layout: base
 ---
 
 <div class="community">
-  {{ content }}
+  <div class="columns split main">
+    <div class="column content">
+      {{ content }}
+      <div>
+        <a href="{{ '/about' | relative_url }}" class="pill-button">
+          Learn more about the Book
+        </a>
+      </div>
+    </div>
+
+    {% if page.featured_image %}
+    <div class="column image">
+      <img src="{{ page.featured_image | relative_url }}" alt="{{ page.featured_image_alt | escape }}" class="home-featured-image" />
+    </div>
+    {% endif %}
+  </div>
+
+  <div class="columns stay-connected">
+    <div class="column">
+      <div class="callout-box border-black background-white">
+        <h3>Stay Connected on the Water!</h3>
+        <p>Join the <strong>Loop Life Academy</strong> community and connect with fellow adventurers navigating America’s Great Loop. Share your journey, gain insights, and be part of a network of like-minded cruisers.</p>
+        <p>Our <strong>email newsletter</strong> brings you expert cruising tips, in-depth blogs, and resources to help you make the most of life on the water. Whether you’re looking for navigation advice, remote work solutions, or inspiration for your next stop, we’ve got you covered!</p>
+        <a href="{{ site.loop_life_academy_url }}/newsletter" target="_blank" class="pill-button blue ">
+          Sign up today and never miss an update!
+        </a>
+        <div class="social-links">
+          {%- include social.html -%}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="join-the-conversation">
+    <div class="top">
+      <h2>
+        <span class="blue">Join the Conversation:</span><br />
+        Connect with Fellow Cruisers & Remote Workers
+      </h2>
+      <p>Looking for a place to share experiences, ask questions, and connect with a like-minded community? Whether you’re cruising the Great Loop, working remotely from a boat, or planning your next adventure, there’s a space for you!</p>
+    </div>
+    <div class="columns">
+      <div class="column">
+        <h2>Where to Join the Discussion</h2>
+        <p>Explore these online communities where boaters and digital nomads share insights, tips, and stories:</p>
+        <ul class="community-links">
+          {% for link in site.data.community_links %}
+            <li>
+              📍 
+              <a href="{{ link.url }}" target="_blank">
+                {{ link.name }}
+              </a>
+              {% if link.note %}
+                ({{ link.note }})
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="column">
+        <div class="callout-box border-black background-white">
+          <h2>
+            <span class="blue">Stay Engaged:</span><br />
+            Join the Loop Life Academy Community
+          </h2>
+          <p>Follow <strong>Loop Life Academy's</strong> social media to share your journey, ask for advice, and connect with fellow cruisers.</p>
+          <div class="social-links">
+            {%- include social.html -%}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="learn-plan-thrive">
+    <h2 class="center">Learn, Plan, and Thrive with Loop Life Academy</h2>
+    <p class="center">Whether you’re preparing for the Great Loop, navigating life as a remote worker on the water, or looking for expert advice, <a href="{{ site.loop_life_academy_url }}" target="_blank">Loop Life Academy</a> has the tools and resources to help you succeed.</p>
+    <div class="columns resource-sections">
+      {% for section in site.data.community_resources %}
+        <div class="column resource-box {{ section.background }}">
+          
+          <h2>{{ section.emoji }} {{ section.title }}</h2>
+
+          <div class="resource-items">
+            {% for item in section.items %}
+              
+              <div class="resource-item">
+                {% if item.url %}
+                  <strong>
+                    <a href="{{ item.url }}" target="_blank">
+                      {{ item.title }}
+                    </a>
+                  </strong>
+                {% else %}
+                  <strong>✅ {{ item.title }}</strong>
+                {% endif %}
+
+                {% if item.description %}
+                  <p>{{ item.description }}</p>
+                {% endif %}
+              </div>
+
+            {% endfor %}
+          </div>
+
+          {% if section.cta %}
+            <a href="{{ section.cta.url }}" target="_blank" class="pill-button blue center">
+              {{ section.cta.text }}
+            </a>
+          {% endif %}
+
+        </div>
+      {% endfor %}
+    </div>
+
+    <div class="cta center">
+      <h4>🚀 Ready to make the most of your adventure?</h4>
+      <p>Check out Loop Life Academy for expert guidance, tools, and support to help you thrive on the water!</p>
+    </div>
+  </div>
 
   <!-- Including sample will randomize our results -->
   {% assign featured_posts = site.posts | where: "featured", true | sample: 4 %}

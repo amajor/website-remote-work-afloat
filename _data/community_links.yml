@@ -1,0 +1,31 @@
+- name: "NoForeignLand"
+  url: "https://noforeignland.com"
+
+- name: "SeaPeople"
+  url: "https://seapeopleapp.com"
+
+- name: "Nebo"
+  url: "https://www.nebo.global"
+
+- name: "WhatsApp Communities"
+  url: "https://www.whatsapp.com"
+
+- name: "Starlink on Boats"
+  url: "https://www.facebook.com/groups/starlinkonboats"
+  note: "Facebook Group"
+
+- name: "Women Who Sail"
+  url: "https://www.facebook.com/groups/292744864104327"
+  note: "Facebook Group"
+
+- name: "Cruisers Forum"
+  url: "https://www.cruisersforum.com"
+
+- name: "AGLCA – America’s Great Loop Cruisers’ Association"
+  url: "https://greatloop.org"
+
+- name: "Nomads.com"
+  url: "https://nomads.com"
+
+- name: "Reddit Digital Nomads"
+  url: "https://www.reddit.com/r/digitalnomad"

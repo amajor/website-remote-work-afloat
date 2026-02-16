@@ -36,8 +36,24 @@ storygraph_url: "https://app.thestorygraph.com/books/ff7885d1-53e6-4f1d-87a9-e4a
 
 # Theme settings
 minima:
-  hide_site_feed_link: true
   show_excerpts: true
+  hide_site_feed_link: true
+  social_links:
+    - title: Loop Life Academy Facebook
+      icon: facebook
+      url: "https://www.facebook.com/LoopLifeAcademy"
+    - title: Loop Life Academy Instagram
+      icon: instagram 
+      url: "https://www.instagram.com/looplifeacademy/"
+    - title: Loop Life Academy YouTube
+      icon: youtube
+      url: "https://www.youtube.com/@LoopLifeAcademy"
+    - title: Loop Life Academy Pinterest
+      icon: pinterest
+      url: "https://www.pinterest.com/looplifeacademy/"
+    - title: Loop Life Academy Spotify
+      icon: spotify
+      url: "https://open.spotify.com/show/1I1EIB8Hu9TqtUjKo9pCgl"
 
 # Set default layout types
 defaults: 

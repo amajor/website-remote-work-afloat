@@ -124,8 +124,17 @@ a.pill-button {
     font-size: 0.85em;
   }
 
+  &.full-width {
+    display: block;
+  }
+
   &.orange {
     background-color: $remote-work-afloat-color-6;
+    color: $remote-work-afloat-color-1;
+  }
+
+  &.blue {
+    background-color: $remote-work-afloat-color-4;
     color: $remote-work-afloat-color-1;
   }
 
@@ -423,10 +432,23 @@ a.pill-button {
   padding: 40px;
   margin: auto;
 
+  // Center the content
+  display: flex;
+  flex-direction: column;  // stack children vertically
+  align-items: center;     // horizontally center everything
+  gap: 1rem;               // spacing between button, text, and icons
+  text-align: center;      // ensures text paragraphs are centered (optional)
+
   &.border-white {
     border-width: 4px;
     border-style: solid;
     border-color: $remote-work-afloat-color-1;
+  }
+
+  &.border-black {
+    border-width: 4px;
+    border-style: solid;
+    border-color: $remote-work-afloat-color-5;
   }
 
   &.background-white {
@@ -453,6 +475,74 @@ a.pill-button {
 }
 
 .community {
+  .main, .learn-plan-thrive {
+    padding: 40px 10%;
+
+    .cta {
+      margin-top: 50px;
+      margin-bottom: -20px;
+    }
+  }
+
+  .stay-connected {
+    padding: 40px 25%;
+    background-color: $remote-work-afloat-color-4;
+
+    .social-links {
+      margin-top: 20px;
+    }
+  }
+
+  .resource-sections {
+    .resource-box {
+      background-color: $remote-work-afloat-color-2;
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+
+      .resource-items {
+        flex-grow: 1;
+      }
+    }
+  }
+
+  .join-the-conversation {
+    background-color: $remote-work-afloat-color-2;
+    
+    .top {
+      padding: 40px 25%;
+    }
+
+    .columns {
+      padding: 40px 5%;
+    }
+
+    .blue {
+      color: $remote-work-afloat-color-3;
+    }
+
+    .community-links {
+      list-style: none;
+      padding: 0;
+
+      li {
+        margin-bottom: 0.75rem;
+      }
+
+      a {
+        font-weight: 600;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+
+
+  }
+  
   .featured-posts {
     background-color: $remote-work-afloat-color-2;
     padding: 40px 100px;
@@ -480,4 +570,13 @@ a.pill-button {
 
 .center {
   text-align: center;
+}
+
+.social-media-list li a {
+  border: none;
+  padding: 10px 0;
+
+  span {
+    color: $remote-work-afloat-color-4;
+  }
 }

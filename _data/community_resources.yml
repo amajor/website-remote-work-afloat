@@ -1,0 +1,42 @@
+- title: "Courses & Training"
+  emoji: "📚"
+  background: "light-blue"
+  items:
+    - title: "5 Steps to Remote Work on a Boat"
+      description: "Set up reliable internet, manage work-life balance, and stay productive on board."
+    - title: "10 Steps to Adventure"
+      description: "Get insights on adventure planning, budgeting, provisioning, and more."
+  cta:
+    text: "🎓 Explore Courses Here"
+    url: "https://www.looplifeacademy.com/online-courses"
+
+- title: "Must-Read Guides & Articles"
+  emoji: "🌊"
+  background: "light-blue"
+  items:
+    - title: "Essential Navigation Tools for Boaters: What to Keep on Board"
+      url: "https://www.looplifeacademy.com/blog/essential-navigation-tools-for-boaters-what-to-keep-on-board"
+    - title: "Navigating & Weather Planning on the Great Loop: Our Favorite Tools and Tips"
+      url: "https://www.looplifeacademy.com/blog/navigating-and-weather-apps"
+    - title: "How to Read & Understand Waterway Navigation Markers"
+      url: "https://www.looplifeacademy.com/blog/how-to-read-and-understand-waterway-navigation-markers"
+  cta:
+    text: "📖 Browse All Articles"
+    url: "https://www.looplifeacademy.com/blog"
+
+- title: "Downloadable Resources"
+  emoji: "📥"
+  background: "light-blue"
+  items:
+    - title: "Great Loop Planning Checklist"
+      url: "https://www.looplifeacademy.com/great-loop-roadmap-checklist-opt-in"
+      description: "Stay on track with essential pre-trip planning."
+    - title: "Passage Planning Checklist"
+      url: "https://www.looplifeacademy.com/checklist-passage-day"
+      description: "A step-by-step guide to route planning."
+    - title: "Remote Work Afloat Guide"
+      url: "./downloads.md"
+      description: "Editable lists, links, and resources for Remote Work Afloat readers."
+  cta:
+    text: "✉️ Get Email Tips"
+    url: "https://www.looplifeacademy.com/newsletter"

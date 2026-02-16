@@ -130,8 +130,6 @@ layout: base
   {% assign featured_posts = site.posts | where: "featured", true | sample: 4 %}
 
   {%- if featured_posts.size > 0 -%}
-  <hr />
-
   <div class="featured-posts">
     <h2 class="center">Featured Articles & Content</h2>
     <p class="center">Here are some of our favorite articles and videos to inspire your next adventure and help you on your journey:</p>
@@ -163,7 +161,7 @@ layout: base
           </p>
           {%- endif -%}
 
-          {%- if post.permalink contains 'looplifeacademy' -%}
+          {%- if post.external contains 'looplifeacademy' -%}
           <p class="post-from-loop-life-academy">[Article from <em><a href="{{ site.loop_life_academy_url }}" target="_blank">Loop Life Academy</a></em>]</p>
           {%- endif -%}
 

@@ -1,0 +1,32 @@
+---
+layout: base
+---
+
+<div class="page-content">
+  <!-- Primary Content -->
+  <div class="gear-main columns">
+    <div class="column content">
+         {{ content }}
+    </div>
+    {% if page.featured_image %}
+      <div class="column image center">
+        <img src="{{ page.featured_image | relative_url }}" alt="{{ page.featured_image_alt | escape }}" class="home-featured-image" />
+      </div>
+    {% endif %}
+  </div>
+
+  <!-- Gear Categories -->
+  <div class="gear-categories">
+    <div class="container">
+       {% for item in site.data.gear %}
+        <div class="item item-categories">
+          <h3>{{ item.category }}</h3>
+          <p>{{ item.description }}</p>
+          <a class="pill-button small" href="{{ item.link }}">
+            SHOW ME THE GEAR
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

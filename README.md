@@ -95,6 +95,20 @@ article_excerpt: Cruising doesn’t mean going off the grid entirely. Here’s h
 ---
 ````
 
+### Gear
+
+The front matter for gear includes a number that references the order the
+categories fall in `_data/gear.yml`:
+
+```yml
+---
+layout: page_gear_items
+title: Necessary Devices
+permalink: /gear/necessary-devices
+category: 0
+---
+```
+
 ## Styling & Plugins
 
 ### Theme: Minima

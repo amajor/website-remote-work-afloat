@@ -1,0 +1,47 @@
+---
+layout: base
+---
+
+<div class="page-content">
+  <!-- Primary Content -->
+  <div class="gear-main columns">
+    <div class="column content">
+      {{ content }}
+      <hr />
+    </div>
+    {% if page.featured_image %}
+      <div class="column image center">
+        <img src="{{ page.featured_image | relative_url }}" alt="{{ page.featured_image_alt | escape }}" class="home-featured-image" />
+      </div>
+    {% endif %}
+  </div>
+
+  <!-- Gear Items -->
+  <div class="gear-items">
+    <p class="associate-disclosure">{{ site.amazon_affiliate_disclosure }}</p>
+    <div class="container">
+      {% for item in site.data.gear[page.category].items %}
+        <div class="item">
+          {% if item.image %}
+            <img src="{{ item.image | relative_url }}" alt="{{ item.name | escape }}" class="gear-item-image" />
+          {% endif %}
+          <h3>{{ item.name }}</h3>
+          {% if item.description %}
+            <p>{{ item.description }}</p>
+          {% endif %}
+          {% if item.link %}
+            <a class="pill-button" href="{{ item.link }}" target="_blank">
+              Find on Amazon
+            </a>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="gear-footer">
+    <a href="/gear" class="pill-button orange">
+      View All Gear Recommendations
+    </a>
+  </div>
+</div>

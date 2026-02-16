@@ -1,0 +1,57 @@
+- category: Necessary Devices
+  description: "The core tech you need to work remotely from your boat, from laptops to power essentials."
+  link: /gear/necessary-devices
+  items:
+    - name: Laptop & Power Cord
+      description: "A laptop is the heart of your remote office. It is portable, space-saving, and essential for working on a boat. Choose one with a clear display, long battery life, and enough processing power for your needs. Keep in mind that humidity and salty air can shorten its lifespan."
+      link: https://amzn.to/41sNwXv
+
+    - name: Desktop Computer
+      description: "If a desktop is essential for your work, be mindful of its size and power demands. Desktops can drain your battery bank quickly, so ensure you have a reliable power source like solar, wind, or a generator. For most remote jobs, though, a laptop is sufficient and often supplied by your employer."
+      link: https://amzn.to/4gYntMD
+
+    - name: Smartphone
+      description: "A reliable smartphone is more than just a backup—it’s perfect for quick tasks and staying connected, especially in tight spaces."
+      link: https://amzn.to/3QzaINy
+
+    - name: Tablet
+      description: "A tablet is more than just a backup—it’s great for quick tasks, staying connected in small spaces, and can even double as an extra monitor when needed."
+      link: https://amzn.to/41aBdOh
+
+    - name: External Monitor
+      description: "An external monitor can boost productivity by providing extra screen space and a more ergonomic setup. However, many are power-hungry, so if you’re at anchor, plan for the energy impact, especially when relying on solar or a generator."
+      link: https://amzn.to/4kgqZVh
+
+    - name: Monitor Mount
+      description: "If you do go with an external monitor, invest in a monitor mount. It secures your screen, keeps it from sliding if your boat rocks, and lets you position it at an ergonomic height. Trust me—on a boat, anything not tied down has the potential to become a projectile, even on calm days when an unexpected wake rolls in."
+      link: https://amzn.to/4ienc9a
+    
+    - name: Noise-cancelling Headphones
+      description: "Perfect for tuning out distractions, noise-canceling headphones create a quiet workspace no matter where you are. Whether it’s the hum of a neighbor’s engine or wind whistling through the rigging, these headphones help you stay focused by blocking out unwanted noise."
+      link: https://amzn.to/41hBIpZ
+
+    - name: Bone-Conducting Headphones
+      description: "Unlike traditional headphones, bone-conducting models let you listen without covering your ears, keeping you aware of your surroundings. I love using them while working because they allow me to hear what’s happening on deck while still enjoying music, podcasts, or calls. I use Shokz Minis as they fit my head size better, so double-check your size options."
+      link: https://amzn.to/41hBIpZ
+
+    - name: Ear Plugs
+      description: "Sound-dampening earplugs are a great option for reducing background noise while remaining aware. They help minimize sharp or disruptive sounds, making it easier to concentrate. They are especially effective when paired with bone-conducting headphones, which provide a balanced mix of awareness and focus. I use the Loop Engage Ear Plugs."
+      link: https://amzn.to/3QxohNy
+
+- category: Peripheral Devices
+  description: "Useful add-ons like external monitors, headphones, and accessories to enhance your workspace."
+  link: /gear/peripheral-devices
+
+- category: Internet Solutions
+  description: "Reliable connectivity options for staying online no matter where your boat takes you."
+  link: /gear/internet-solutions
+
+- category: Backup Power
+  description: "Staying powered up is essential when working remotely from a boat. From solar panels to portable batteries, having reliable backup power ensures you can keep working even when you’re off-grid."
+  link: /gear/backup-power
+
+# - category: Portable & Compact Office Supplies
+#   description: "Space-saving office tools that keep you organized and efficient in a small workspace."
+
+# - category: More Favorites
+#   description: "A collection of my go-to gear beyond remote work, from everyday essentials to boating must-haves."

@@ -33,6 +33,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://remoteworkafloat.com" # the base hostname & protocol for your site, e.g. http://example.com
 loop_life_academy_url: "https://looplifeacademy.com" # the URL for Loop Life Academy, used in the header and footer
+amazon_affiliate_disclosure: "As an Amazon Associate, I earn commission from qualifying purchases." # disclosure text for Amazon affiliate links
 # twitter_username: jekyllrb
 # github_username:  jekyll
 minima:

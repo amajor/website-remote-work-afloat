@@ -67,4 +67,4 @@ Yes! Readers can sign up for extras like bonus checklists, new tech reviews, and
 
 ### Can I contact the author with questions or to book a consult?
 
-Yes. You can reach Alison via [Loop Life Academy](https://shop.looplifeacademy.com/collections/personalized-calls), emailing her at [hello@looplifeacdemy.com](mailto:hello@looplifeacdemy.com), or following along on [Facebook](https://www.facebook.com/looplifeacademy), [Instagram](https://www.instagram.com/looplifeacademy), and [YouTube](https://www.youtube.com/@LoopLifeAcademy) for regular behind-the-scenes updates from life aboard.
+Yes. You can reach Alison via <a href="https://shop.looplifeacademy.com/collections/personalized-calls" target="_blank">Loop Life Academy</a>, emailing her at [hello@looplifeacademy.com](mailto:hello@looplifeacademy.com), or following along on <a href="https://www.facebook.com/looplifeacademy" target="_blank">Facebook</a>, <a href="https://www.instagram.com/looplifeacademy" target="_blank">Instagram</a>, and <a href="https://www.youtube.com/@LoopLifeAcademy" target="_blank">YouTube</a> for regular behind-the-scenes updates from life aboard.

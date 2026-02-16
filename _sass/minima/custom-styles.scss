@@ -60,6 +60,10 @@ body {
 }
 
 // Navigation & Header Styles
+.site-nav .nav-item {
+  color: $remote-work-afloat-color-1;
+}
+
 .site-header { 
   font-weight: 300;
   font-size: 0.9em;

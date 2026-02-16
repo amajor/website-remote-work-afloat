@@ -72,3 +72,4 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - _templates/
+  - _posts/drafts/

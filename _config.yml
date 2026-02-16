@@ -7,6 +7,11 @@ theme: minima
 plugins:
   - jekyll-feed
 
+# URL settings
+domain: "amajor.github.io"
+url: "https://amajor.github.io"
+baseurl: "/website-remote-work-afloat"
+
 # Site settings
 title: Remote Work Afloat
 author:
@@ -20,9 +25,6 @@ author:
   country: USA
 description: >- # this means to ignore newlines
   Whether you're planning your transition, choosing the right internet setup, or figuring out how to balance work with adventure, Remote Work Afloat provides practical advice, gear recommendations, and real-world strategies to help you stay connected and productive on the water.
-domain: "amajor.github.io"
-url: "https://amajor.github.io"
-baseurl: "/website-remote-work-afloat"
 loop_life_academy_url: "https://looplifeacademy.com"
 amazon_affiliate_disclosure: >- # this means to ignore newlines
   As an Amazon Associate, I earn commission from qualifying purchases.

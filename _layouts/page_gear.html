@@ -22,7 +22,7 @@ layout: base
         <div class="item item-categories">
           <h3>{{ item.category }}</h3>
           <p>{{ item.description }}</p>
-          <a class="pill-button small" href="{{ item.link }}">
+          <a class="pill-button small" href="{{ item.link | relative_url }}">
             SHOW ME THE GEAR
           </a>
         </div>

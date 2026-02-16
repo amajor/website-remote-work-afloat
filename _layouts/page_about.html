@@ -23,7 +23,7 @@ layout: base
         <div class="column">
           <h3>{{ item.testimony }}</h3>
           <p>{% for i in (1..item.rating) %}⭐️{% endfor %} - {{ item.name }}</p>
-          <a class="pill-button small" href="{{ item.link }}" target="_blank">
+          <a class="pill-button small" href="{{ item.link | relative_url }}" target="_blank">
             Read Full Review
           </a>
         </div>
@@ -39,7 +39,7 @@ layout: base
     <div class="column">
       <p>Stay up to date with the latest news, press releases, and media features about Remote Work Afloat.</p>
       <p>Get updates on book launches, author interviews, and insights for remote work and cruising life.</p>
-      <a href="/news" class="pill-button">
+      <a href="{{ '/news' | relative_url }}" class="pill-button">
         Read News & Updates
       </a>
     </div>

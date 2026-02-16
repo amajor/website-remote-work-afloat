@@ -30,7 +30,7 @@ layout: base
             <p>{{ item.description }}</p>
           {% endif %}
           {% if item.link %}
-            <a class="pill-button" href="{{ item.link }}" target="_blank">
+            <a class="pill-button" href="{{ item.link | relative_url }}" target="_blank">
               {% if item.label %}
                 {{item.label}}
               {% else %}
@@ -44,7 +44,7 @@ layout: base
   </div>
 
   <div class="gear-footer">
-    <a href="/gear" class="pill-button orange">
+    <a href="{{ '/gear' | relative_url }}" class="pill-button orange">
       View All Gear Recommendations
     </a>
   </div>

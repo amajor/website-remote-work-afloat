@@ -21,7 +21,8 @@ layout: base
     <p class="associate-disclosure">{{ site.amazon_affiliate_disclosure }}</p>
     <div class="container">
       {% for item in site.data.gear[page.category].items %}
-      <div class="item {% if item.featured %}featured{% endif %}" {% if item.minwidth %} style="min-width: {{ item.minwidth }};" {% endif %}>
+      <div class="item{% if item.featured %} featured{% endif %}"
+     {% if item.minwidth %}style="min-width: {{ item.minwidth }};"{% endif %}>
           {% if item.image %}
             <img src="{{ item.image | relative_url }}" alt="{{ item.name | escape }}" class="gear-item-image" />
           {% endif %}

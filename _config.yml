@@ -30,8 +30,9 @@ author:
   country: USA
 description: >- # this means to ignore newlines until "baseurl:"
   Whether you're planning your transition, choosing the right internet setup, or figuring out how to balance work with adventure, Remote Work Afloat provides practical advice, gear recommendations, and real-world strategies to help you stay connected and productive on the water.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://remoteworkafloat.com" # the base hostname & protocol for your site, e.g. http://example.com
+domain: "amajor.github.io"
+url: "https://amajor.github.io"
+baseurl: "/website-remote-work-afloat/"
 loop_life_academy_url: "https://looplifeacademy.com" # the URL for Loop Life Academy, used in the header and footer
 amazon_affiliate_disclosure: "As an Amazon Associate, I earn commission from qualifying purchases." # disclosure text for Amazon affiliate links
 # twitter_username: jekyllrb

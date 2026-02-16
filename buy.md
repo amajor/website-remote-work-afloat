@@ -31,7 +31,9 @@ Available now on [Amazon](https://amzn.to/4i0EcAh) in Paperback, Hardcover, and 
 
 Leave a review on your favorite site(s)!
 
-[Review the Book!](/review)
+[Review the Book!](./review.md)
+
+[Review the Book!]({{ site.baseurl }}/review.md)
 
 ---
 

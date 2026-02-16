@@ -22,4 +22,6 @@ Remote Work Afloat is your ultimate guide to staying connected and productive wh
 
 - ✅ Real-world insights from remote-working cruisers
 
-Available now on <a href="https://amzn.to/4i0EcAh" target="_blank"><i class="fa-brands fa-amazon"></i> Amazon</a> in Paperback, Hardcover, and on Kindle.
+---
+
+#### Available now on <a href="https://amzn.to/4i0EcAh" target="_blank"><i class="fa-brands fa-amazon"></i> Amazon</a> in Paperback, Hardcover, and on Kindle.

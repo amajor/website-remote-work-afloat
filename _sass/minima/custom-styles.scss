@@ -434,3 +434,20 @@ a.pill-button {
     color: $remote-work-afloat-color-5;
   }
 }
+
+// Review Page
+.review {
+  .main {
+    padding: 40px 15%;
+    background-color: $remote-work-afloat-color-2;
+  }
+
+  .to-share {
+    padding: 40px;
+    text-align: center;
+    
+    & .column {
+      max-width: 800px;
+    }
+  }
+}

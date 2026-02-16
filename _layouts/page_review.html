@@ -2,7 +2,7 @@
 layout: base
 ---
 
-<div class="buy">
+<div class="review">
   <div class="columns split main">
     <div class="column content">
       {{ content }}
@@ -13,26 +13,17 @@ layout: base
       </div>
     {% endif %}
   </div>
-
-  <div class="columns retailers">
-    <div class="column">
-      <h3>Available at the following retailers:</h3>
+  
+  <div class="columns to-share">
+    <div class="column to-review">
+      <h2>Leave reviews to help others find this book!</h2>
       <div class="columns retailer-links">
         <div class="column">
           <a href="{{ site.amazon_url }}" target="_blank">
-            <i class="fa-brands fa-amazon fa-5x"></i><br />
+            <i class="fa-brands fa-amazon fa-7x"></i><br />
             Amazon
           </a>
         </div>
-      </div>
-    </div>
-  </div>
-  
-  <div class="columns to-share">
-    <div class="column to-read">
-      <h2>Add it to your “to read” list!</h2>
-      <p>Find the book on your favorite site(s) and add it to your “to read” list:</p>
-      <div class="columns retailer-links">
         <div class="column">
           <a href="{{ site.goodreads_url }}" target="_blank">
             <i class="fa-brands fa-goodreads fa-7x"></i><br />
@@ -59,21 +50,5 @@ layout: base
         </div>
       </div>
     </div>
-    <div class="column to-review callout-box border-white">
-      <h2>Already read the book?</h2>
-      <p>Leave a review on your favorite site(s)!</p>
-      <a href="{{ '/review' | relative_url }}" class="pill-button">
-        Review the Book!
-      </a>
-    </div>
   </div>
-
-  <div class="columns spread-the-word">
-    <div class="column callout-box background-white">
-      <h3>🎉 Help Spread the Word!</h3>
-      <p>If you know someone dreaming of remote work afloat, share this page with them!</p>    
-    </div>
-  </div>
-
-
 </div>

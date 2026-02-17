@@ -6,6 +6,7 @@ title: Top 5 Remote Work Myths (from a Boat)
 excerpt: Can you really work remotely while living on a boat? Yes—but it’s not what most people think. Here are 5 common myths about remote work afloat, debunked by a full-time cruiser.
 categories:
   - careers-from-a-boat
+  - remote-work
 tags:
   - digital-nomad
   - internet

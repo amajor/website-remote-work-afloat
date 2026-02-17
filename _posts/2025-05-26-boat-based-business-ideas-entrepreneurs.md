@@ -6,6 +6,7 @@ title: "Entrepreneurship on a Boat: Business Ideas for Cruisers"
 excerpt: Explore business ideas you can run from a boat—from coaching and consulting to marine services and product-based brands. Build your own business afloat.
 categories:
   - careers-from-a-boat
+  - remote-work
 tags:
   - digital-nomad
 permalink: /articles/boat-based-business-ideas-entrepreneurs/

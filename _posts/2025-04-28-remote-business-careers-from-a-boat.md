@@ -6,6 +6,7 @@ title: Business-Minded Remote Careers You Can Do from a Boat
 excerpt: Love structure, strategy, and helping others grow? These business-friendly remote careers are ideal for professionals who want to work afloat.
 categories:
   - careers-from-a-boat
+  - remote-work
 tags:
   - digital-nomad
 permalink: /articles/remote-business-careers-from-a-boat/

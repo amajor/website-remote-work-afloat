@@ -6,6 +6,7 @@ title: Side Hustles and Passive Income for Boat Life
 excerpt: Explore side hustle and passive income ideas that are perfect for cruisers, liveaboards, and remote workers living on a boat. Flexible, creative, and boat-friendly.
 categories:
   - careers-from-a-boat
+  - remote-work
 tags:
   - digital-nomad
 permalink: /articles/side-hustles-passive-income-boat-life/

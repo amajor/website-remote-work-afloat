@@ -6,6 +6,7 @@ title: Creative Remote Careers for Digital Nomads and Boat Life
 excerpt: Explore flexible, creative career options for digital nomads living on a boat. Perfect for freelancers, artists, and content creators who crave freedom.
 categories:
   - careers-from-a-boat
+  - remote-work
 tags:
   - digital-nomad
 permalink: /articles/creative-digital-nomad-careers-boat-life/

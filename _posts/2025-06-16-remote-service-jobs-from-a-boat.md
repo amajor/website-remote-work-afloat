@@ -6,6 +6,7 @@ title: Service-Based Online Careers You Can Do While Living Afloat
 excerpt: These remote, flexible service-based jobs let you help clients from anywhere—perfect for boat life or a nomadic lifestyle.
 categories:
   - careers-from-a-boat
+  - remote-work
 tags:
   - digital-nomad
 permalink: /articles/remote-service-jobs-from-a-boat/

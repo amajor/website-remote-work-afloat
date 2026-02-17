@@ -6,6 +6,7 @@ title: Remote Teaching and Coaching Careers You Can Do From a Boat
 excerpt: Love to teach, guide, or coach? These remote-friendly jobs let you help others while living aboard and traveling full-time.
 categories:
   - careers-from-a-boat
+  - remote-work
 tags:
   - digital-nomad
 permalink: /articles/remote-teaching-and-coaching-jobs-afloat/

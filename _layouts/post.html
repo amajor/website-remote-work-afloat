@@ -15,6 +15,10 @@ layout: base
 
   <div class="post-content">
     {{ content }}
+
+    {% if page.categories contains "careers-from-a-boat" %}
+      {%- include careers-cta.html -%}
+    {% endif %}
   </div>
 
   {% if page.tags %}

@@ -69,13 +69,3 @@ If you’ve built an ecommerce store or know your way around Shopify, you can he
 There’s no pressure to build a huge brand or an agency. These service-based roles work great for solopreneurs, freelancers, or part-time cruisers who just want steady income and meaningful work.
 
 Offer something simple. Do it well. Communicate clearly. Then go for a swim.
-
----
-
-### **🛥️** Want Help Planning a Work-From-Boat Life?
-
-Want even more boat-friendly job ideas—and real-world tips for making remote work actually _work_ on the water? Grab your copy of _Remote Work Afloat_, your guide to building a flexible career that fits your cruising lifestyle.
-
-👉 <a href="{{ '/articles/careers-from-a-boat' | relative_url }}">**See the full Remote Work Afloat Career Article Series**</a>
-
-👉 <a href="{{ '/buy' | relative_url }}">**Buy the book here**</a>

@@ -10,6 +10,7 @@ tags:
   - digital-nomad
   - internet
 permalink: /articles/boat-connectivity-101/
+external:
 featured: true
 ---
 One of the biggest stress points when we first moved aboard wasn’t the small space or the weather windows or even homeschooling on the move… it was the internet.

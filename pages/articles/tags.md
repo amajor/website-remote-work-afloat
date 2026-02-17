@@ -22,6 +22,9 @@ permalink: /tags/
             <a href="{% if post.external %}{{ post.external }}{% else %}{{ post.url | relative_url }}{% endif %}"
               {% if post.external %}target="_blank" rel="noopener noreferrer"{% endif %}>
               {{ post.title }}
+              {% if post.external %}
+                <i class="fa-solid fa-arrow-up-right-from-square fa-xs"></i>
+              {% endif %}
             </a>
             <span class="post-meta">
               {{ post.date | date: "%b %-d, %Y" }}

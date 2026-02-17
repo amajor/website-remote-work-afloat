@@ -13,73 +13,102 @@ layout: base
       {%- if page.list_title -%}
         <h2 class="post-list-heading">{{ page.list_title }}</h2>
       {%- endif -%}
+
       <ul class="post-list">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+
         {%- for post in posts -%}
-          <!-- Set post link depending of if from Loop Life or internal -->
-          {% capture post_link %}
-            {% if post.external %}
-              {{ post.external }}
-            {% else %}
-              {{ post.url | relative_url }}
-            {% endif %}
-          {% endcapture %}
-          <!-- End Loop Life captures -->
-           
+
           <li>
             <h3>
-              <a class="post-link {% if post.external %}external-link{% endif %}" href="{{ post_link | strip }}" {% if post.external %}target="_blank"{% endif %}>
+              <a class="post-link {% if post.external %}external-link{% endif %}"
+                 href="{% if post.external %}{{ post.external }}{% else %}{{ post.url | relative_url }}{% endif %}"
+                 {% if post.external %}target="_blank" rel="noopener noreferrer"{% endif %}>
+
                 {%- if post.article_title -%}
                   {{ post.article_title | escape }}
                 {%- else -%}
                   {{ post.title | escape }}
                 {%- endif -%}
+
+                {% if post.external %}
+                  <i class="fa-solid fa-arrow-up-right-from-square fa-xs"></i>
+                {% endif %}
               </a>
             </h3>
+
             {%- if site.minima.show_excerpts -%}
               <p class="summary-excerpt">
                 {{ post.article_excerpt }}
               </p>
             {%- endif -%}
 
-            {%- if post.external contains 'looplifeacademy' -%}
-              <p class="post-from-loop-life-academy">[Article from <em><a href="{{ site.loop_life_academy_url }}" target="_blank">Loop Life Academy</a></em>]</p>
+            {%- if post.external and post.external contains 'looplifeacademy' -%}
+              <p class="post-from-loop-life-academy">
+                [Article from
+                <em>
+                  <a href="{{ site.loop_life_academy_url }}"
+                     target="_blank"
+                     rel="noopener noreferrer">
+                    Loop Life Academy
+                  </a>
+                </em>]
+              </p>
             {%- endif -%}
 
             <p class="summary-read-more">
-              <a href="{{ post_link | strip }}" {% if post.external %}target="_blank"{% endif %}>Read More &rarr;</a>
+              <a href="{% if post.external %}{{ post.external }}{% else %}{{ post.url | relative_url }}{% endif %}"
+                 {% if post.external %}target="_blank" rel="noopener noreferrer"{% endif %}>
+                Read More
+                {% if post.external %}
+                  <i class="fa-solid fa-arrow-up-right-from-square fa-xs"></i>
+                {% else %}
+                  &rarr;
+                {% endif %}
+              </a>
             </p>
 
-            <span class="post-meta">{{ post.date | date: date_format }}</span>
+            <span class="post-meta">
+              {{ post.date | date: date_format }}
+            </span>
+
           </li>
+
         {%- endfor -%}
       </ul>
 
       {% if site.paginate %}
         <div class="pager">
           <ul class="pagination">
-          {%- if paginator.previous_page %}
-            <li>
-              <a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page" title="Go to Page {{ paginator.previous_page }}">
-                {{ paginator.previous_page }}
-              </a>
-            </li>
-          {%- else %}
-            <li><div class="pager-edge">•</div></li>
-          {%- endif %}
+            {%- if paginator.previous_page %}
+              <li>
+                <a href="{{ paginator.previous_page_path | relative_url }}"
+                   class="previous-page"
+                   title="Go to Page {{ paginator.previous_page }}">
+                  {{ paginator.previous_page }}
+                </a>
+              </li>
+            {%- else %}
+              <li><div class="pager-edge">•</div></li>
+            {%- endif %}
+
             <li><div class="current-page">{{ paginator.page }}</div></li>
-          {%- if paginator.next_page %}
-            <li>
-              <a href="{{ paginator.next_page_path | relative_url }}" class="next-page" title="Go to Page {{ paginator.next_page }}">
-                {{ paginator.next_page }}
-              </a>
-            </li>
-          {%- else %}
-            <li><div class="pager-edge">•</div></li>
-          {%- endif %}
+
+            {%- if paginator.next_page %}
+              <li>
+                <a href="{{ paginator.next_page_path | relative_url }}"
+                   class="next-page"
+                   title="Go to Page {{ paginator.next_page }}">
+                  {{ paginator.next_page }}
+                </a>
+              </li>
+            {%- else %}
+              <li><div class="pager-edge">•</div></li>
+            {%- endif %}
           </ul>
         </div>
       {%- endif %}
+
     {%- endif -%}
   </div>
 </div>

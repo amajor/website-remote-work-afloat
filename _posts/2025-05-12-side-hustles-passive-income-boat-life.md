@@ -11,7 +11,7 @@ tags:
   - digital-nomad
 permalink: /articles/side-hustles-passive-income-boat-life/
 external:
-featured: false
+featured: true
 ---
 _Great complements to part-time or seasonal work._
 

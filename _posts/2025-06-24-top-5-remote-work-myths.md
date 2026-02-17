@@ -12,7 +12,7 @@ tags:
   - internet
 permalink: /articles/top-5-remote-work-myths/
 external:
-featured: false
+featured: true
 ---
 When we started cruising full-time, the questions rolled in.
 

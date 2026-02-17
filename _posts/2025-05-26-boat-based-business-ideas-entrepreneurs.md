@@ -11,7 +11,7 @@ tags:
   - digital-nomad
 permalink: /articles/boat-based-business-ideas-entrepreneurs/
 external:
-featured: false
+featured: true
 ---
 _Build your own business on your own terms._
 

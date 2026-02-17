@@ -8,9 +8,8 @@ plugins:
   - jekyll-feed
 
 # URL settings
-domain: "amajor.github.io"
-url: "https://amajor.github.io"
-baseurl: "/website-remote-work-afloat"
+url: "https://remoteworkafloat.com"
+baseurl: ""   # IMPORTANT — empty
 
 # Site settings
 title: Remote Work Afloat

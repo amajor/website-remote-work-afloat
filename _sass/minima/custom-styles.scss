@@ -53,6 +53,10 @@ body {
     font-size: 1.25em;
   }
 
+  .categories a, .categories a:visited {
+    color: $remote-work-afloat-color-4;
+  }
+
   a:hover {
     text-decoration: none;
   }
@@ -657,7 +661,7 @@ a.pill-button {
   width: 100%;
 }
 
-.article-posts .post-list {
+.article-posts .post-list, .category-posts .post-list {
   display: grid;
   grid-template-columns: repeat(4, 1fr); /* 4 per row */
   gap: 30px;
@@ -665,25 +669,25 @@ a.pill-button {
   padding-left: 0;
 }
 
-.article-posts .post-list li {
+.article-posts .post-list li, .category-posts .post-list li {
   display: flex;
   flex-direction: column;
 }
 
 @media (max-width: 1200px) {
-  .article-posts .post-list {
+  .article-posts .post-list, .category-posts .post-list {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
 @media (max-width: 900px) {
-  .article-posts .post-list {
+  .article-posts .post-list, .category-posts .post-list {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (max-width: 600px) {
-  .article-posts .post-list {
+  .article-posts .post-list, .category-posts .post-list {
     grid-template-columns: 1fr;
   }
 }

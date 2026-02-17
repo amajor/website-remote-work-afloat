@@ -79,6 +79,7 @@
   link: /gear/internet-solutions
   items: 
   - name: Starlink
+    subtitle: Internet Anywhere with Starlink
     description: "Starlink provides reliable internet even in remote locations, making it a game-changer for cruisers. With speeds that support streaming, work, and staying connected, it’s perfect for when cellular service is unavailable. While it does have a significant power draw, you can manage it with a direct 12V connection or by toggling it off when not in use. Keep in mind that upload speeds can be slower, especially with a VPN, and weather or anchorage conditions may cause occasional interruptions. Overall, it’s a top choice for cruisers needing a consistent internet connection while on the move."
     link: https://www.starlink.com/roam?referral=RC-2020659-90333-57
     label: Learn About Starlink
@@ -86,40 +87,49 @@
     featured: true
 
   - name: Starlink DC-to-DC Power Supply
+    subtitle: Efficient Power for Starlink
     description: "For boaters using Starlink, the new DC-to-DC power supply option is a great way to simplify your setup. It connects directly to your boat’s 12V system, eliminating the need for an inverter or extra power converters. This streamlined option is more efficient and reduces the complexity of managing your Starlink power needs. It’s an easy way to ensure you get reliable internet without unnecessarily draining your boat’s battery. Plus, more accessories are available to help customize and optimize your Starlink experience, from mounting solutions to power management systems."
     minwidth: "40%"
     featured: true
 
   - name: Cellular Data
+    subtitle: Reliable Internet on the Go
     description: "When you’re out at sea or anchored in a remote location, cellular data is often your lifeline for staying connected. You can use your phone’s hotspot or opt for a service like the Calyx Institute for a more robust, reliable connection. Cellular data plans can vary in cost and coverage, so it’s worth comparing options to find one that fits your needs. It’s a great way to stay connected when Wi-Fi isn’t available, as long as there’s a cellular signal."
     link: https://calyxinstitute.org/membership/internet
     label: Learn About Calyx Institute
 
   - name: Mobile Hotspot
+    subtitle: Portable Internet Anywhere
     description: "A mobile hotspot is an essential tool for boat life, allowing you to convert a cellular data connection into Wi-Fi for multiple devices. While many smartphones have a built-in hotspot feature, standalone mobile hotspots are more powerful and reliable, especially when you need to support multiple devices. These devices are lifesavers when you’re anchored far from shore or in a location without traditional Wi-Fi. Look for models that have long battery life and strong signal capabilities to make the most of your internet connection."
     link: https://amzn.to/4gW8MK1
 
   - name: SIM Cards
+    subtitle: Maximize Your Coverage
     description: "SIM cards are your gateway to cellular networks around the world, and having the right ones can make all the difference when cruising. Depending on where you’re traveling, consider getting local SIM cards or an international plan to get the best coverage and rates. Some services offer data SIMs specifically for travelers, giving you the flexibility to choose the best options for your internet needs while you’re on the water."
 
   - name: Signal Booster / Cellular Repeater
+    subtitle: Stronger Signal, Better Speeds
     description: "When you’re relying on cellular data for internet access, weak signals can be a major frustration. A signal booster or cellular repeater solves this problem by capturing a weak signal, amplifying it, and rebroadcasting it inside your boat. It can significantly improve reception and speeds, which is especially helpful in remote areas where cellular coverage is limited. If you’re in an area with marginal service, a signal booster might be just the thing to give you the reliable connection you need to stay productive."
     link: https://amzn.to/41fZvGN
 
   - name: Pepwave Routers, Bonded Connections, etc.
+    subtitle: Reliable Connections with Bonding
     description: "Pepwave routers are a fantastic solution for cruisers who need a reliable, fast, and secure internet connection on the go. These routers can bond multiple internet sources (like cellular, Starlink, or Wi-Fi) to create a stronger and more stable connection, which is crucial for remote work. Whether you’re using cellular data, satellite, or shore-based Wi-Fi, Pepwave routers ensure that you’re always connected, even if one connection drops. It’s an investment that can significantly improve your internet experience when working remotely from the boat."
     label: Learn About Peplink SpeedFusion
     link: https://www.peplink.com/technology/speedfusion-bonding-technology/
 
   - name: Routers
+    subtitle: Boost Your Boat's Wi-Fi
     description: "A good router is key to ensuring you have a strong and reliable Wi-Fi connection throughout your boat. The router acts as the central hub for all your devices, whether you’re working on your laptop, streaming, or checking email. Look for one with dual-band capabilities to reduce interference and keep your connection stable even when you’re at anchor. Some routers also have marine-grade options that are built to withstand the harsh conditions of life on the water. You’ll need a solid router to handle your onboard network and ensure all your devices stay connected."
     link: https://amzn.to/4ku7mtc
 
   - name: Range Extenders
+    subtitle: Extend Your Wi-Fi Reach
     description: "If you’re already connected to a Wi-Fi network but need to ensure it reaches every part of your boat, a Wi-Fi range extender is a must. This device amplifies the signal from your router or an external Wi-Fi source, ensuring reliable coverage even in remote areas of your boat, like the far corners or outdoor spaces. For life on the water, make sure to choose a marine-grade range extender designed to handle the elements. Experiment with placement and test signal strength to make sure you’re getting the best performance out of your setup."
     link: https://amzn.to/3QCy6di
 
   - name: Ethernet Cables
+    subtitle: Wired Connection for Consistent Speed
     description: "Though Wi-Fi is convenient, nothing beats the reliability and speed of a wired Ethernet connection. If you need the most stable internet possible, using an Ethernet cable can ensure you get the best speeds and performance, especially for tasks like video calls or large file uploads. Many routers and devices can be connected via Ethernet, and it’s a great option for setting up a fixed workspace on the boat. Whether you’re docked or on a stable anchor, using an Ethernet cable can help you avoid any Wi-Fi hiccups."
     link: https://amzn.to/4i90yz8
 

@@ -6,6 +6,8 @@ title: "PODCAST: Navigating the #1 Boating Adventure"
 excerpt: Join me on The Boater’s Lounge podcast as I share the story of my family’s unforgettable Great Loop journey! From navigating the Erie Canal to tackling seasickness in the Gulf of Mexico, I dive into the highs, lows, and lessons learned along the way. Tune in for tips, inspiration, and the story behind Loop Life Academy—a resource hub for families dreaming of this iconic boating adventure.
 categories:
   - remote-work
+  - boat-budget
+  - apps
 tags:
   - digital-nomad
   - great-loop

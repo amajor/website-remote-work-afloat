@@ -3,7 +3,17 @@ layout: base
 ---
 
 <div class="categories">
-  <h1>{{ page.title }}</h1>
+  <div class="columns split">
+    <div class="column content">
+      {{ content }}
+    </div>
+
+    {% if page.featured_image %}
+    <div class="column image">
+      <img src="{{ page.featured_image | relative_url }}" alt="{{ page.featured_image_alt | escape }}" class="home-featured-image" />
+    </div>
+    {% endif %}
+  </div>
 
   <!-- Posts -->
   <div class="category-posts">

@@ -53,10 +53,6 @@ body {
     font-size: 1.25em;
   }
 
-  .categories a, .categories a:visited {
-    color: $remote-work-afloat-color-4;
-  }
-
   a:hover {
     text-decoration: none;
   }
@@ -71,6 +67,28 @@ body {
     color: $remote-work-afloat-color-4;
     margin-bottom: 40px;
     text-align: center;
+  }
+}
+
+.categories {
+  
+  & a, & a:visited {
+    color: $remote-work-afloat-color-4;
+  }
+  
+  .pill-button, .pill-button:visited {
+    color: $remote-work-afloat-color-1
+  }
+  
+  .columns {
+    background-color: $remote-work-afloat-color-2;
+    padding: 40px 15%;
+    margin-bottom: 40px;
+    margin-top: -40px;
+  }
+
+  .category-posts {
+    margin: 0 40px;
   }
 }
 

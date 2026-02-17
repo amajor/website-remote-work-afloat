@@ -19,7 +19,8 @@ permalink: /tags/
       <ul class="tag-post-list">
         {% for post in posts %}
           <li>
-            <a href="{{ post.url | relative_url }}">
+            <a href="{% if post.external %}{{ post.external }}{% else %}{{ post.url | relative_url }}{% endif %}"
+              {% if post.external %}target="_blank" rel="noopener noreferrer"{% endif %}>
               {{ post.title }}
             </a>
             <span class="post-meta">

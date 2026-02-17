@@ -5,6 +5,7 @@
 title: Explore Remote Water Work
 layout: home
 permalink: /
+content_width: full
 featured_image: assets/img/book_cover-remote_work_afloat.png
 featured_image_alt: Remote Work Afloat Book Cover
 ---

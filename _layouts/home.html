@@ -23,10 +23,9 @@ layout: base
   <!-- Define our source for posts -->
   {% assign posts = site.posts %}
   {%- if posts.size > 0 -%}
-  <hr />
 
   <div class="home-recent-posts">
-    <p>Recent Articles from our Tea & Tides Stories authors and experts</p>
+    <p class="recent-post-summary">Recent Articles from our Tea & Tides Stories authors and experts</p>
   
     <!-- Show recent posts -->
     {%- if page.list_title -%}
@@ -92,7 +91,7 @@ layout: base
 
       {%- endfor -%}
     </ul>
-    <a href="{{ '/articles' | relative_url }}" class="pill-button white">
+    <a href="{{ '/articles' | relative_url }}" class="pill-button white center">
       View All Articles
     </a>
   </div>

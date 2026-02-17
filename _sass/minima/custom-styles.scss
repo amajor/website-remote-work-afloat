@@ -227,12 +227,23 @@ a.pill-button {
 }
 
 // Home Page Recent Posts Section
+.home .columns {
+  margin: 0 10%;
+}
+
 .home-recent-posts {
-  border-radius: 15px;
+  text-align: center;
   background-color: $remote-work-afloat-color-3;
   padding: 40px;
+  margin-top: 40px;
+  margin-bottom: -40px;
+  
+  .recent-post-summary {
+    text-align: center;
+  }
   
   p, .post-list-heading, .post-link, .post-meta, .summary-read-more {
+    text-align: left;
     font-weight: 300;
     color: $remote-work-afloat-color-1;
 

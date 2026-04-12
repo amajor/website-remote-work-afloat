@@ -2,7 +2,7 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-title: Explore Remote Water Work
+title: Explore Remote Work on the Water
 layout: home
 permalink: /
 content_width: full
